@@ -1,47 +1,34 @@
-name: 🌙 Evening Scrape (Free Sources Only)
+name: 🌙 Evening Job Alerts
 
 on:
-  workflow_dispatch:  # Triggered externally by cron-job.org at 9:00 PM IST (3:30 PM UTC) daily
+  workflow_dispatch:
+  schedule:
+    # 9:00 PM IST = 3:30 PM UTC
+    - cron: '30 15 * * *'
 
-# FIX Issue 1: Removed 'contents: write' — using Actions Cache now, not git commits.
 permissions:
   contents: read
 
 jobs:
   scrape:
-    name: Run Job Scraper (Free Mode)
+    name: Run Evening Job Scraper
     runs-on: ubuntu-latest
     timeout-minutes: 10
-    env:
-      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
     steps:
-      - name: 📥 Checkout repository
+      - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 1
 
-      - name: 🟢 Setup Node.js 20
+      - name: Setup Node.js 24
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '24'
+          cache: 'npm'
 
-      # FIX Issue 13: Cache node_modules keyed by package-lock.json hash.
-      - name: 📦 Cache node_modules
-        id: node-cache
-        uses: actions/cache@v4
-        with:
-          path: node_modules
-          key: node-modules-${{ hashFiles('package-lock.json') }}
-
-      - name: 📦 Install dependencies (only if cache miss)
-        if: steps.node-cache.outputs.cache-hit != 'true'
+      - name: Install dependencies
         run: npm ci
 
-      # FIX Issue 1: Restore seen_jobs.json from Actions Cache.
-      # Shares the same cache key space as the morning run so both runs
-      # see the same deduplication database.
-      - name: 🗄 Restore seen_jobs cache
+      - name: Restore seen jobs database
         uses: actions/cache/restore@v4
         with:
           path: data/seen_jobs.json
@@ -49,20 +36,17 @@ jobs:
           restore-keys: |
             seen-jobs-db-
 
-      - name: 🤖 Run job scraper (Free Sources Only — no SerpAPI, no LLM)
+      - name: Run evening scraper
         env:
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
-          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
           USE_SERPAPI: 'false'
           USE_LLM: 'false'
           DRY_RUN: 'false'
         run: node src/main.js
 
-      # FIX Issue 1: Save updated DB to cache after run.
-      - name: 🗄 Save seen_jobs cache
+      - name: Save seen jobs database
         if: always()
         uses: actions/cache/save@v4
         with:

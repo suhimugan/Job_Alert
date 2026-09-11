@@ -1,18 +1,50 @@
 {
-  "name": "Ansh Somani",
-  "education": "B.Tech Computer Science, IIIT Kota (2023-2027)",
+  "name": "SUHIMUGAN KENNADI",
+  "education": "MTech in Data Science, BTech in Information Technology",
   "coreStack": [
-    "Node.js", "Express.js", "JavaScript (ES6+)", "MongoDB", "React.js",
-    "REST APIs", "Git", "GitHub Actions", "Cheerio", "Axios"
+    "Power BI",
+    "DAX",
+    "Power Query",
+    "SQL",
+    "Microsoft Excel",
+    "Azure",
+    "Azure Data Factory",
+    "Azure Synapse Analytics",
+    "Data Engineering",
+    "Data Analysis",
+    "Business Intelligence",
+    "ETL",
+    "Data Visualization"
   ],
   "interests": [
-    "Backend Engineering", "System Design", "Distributed Systems",
-    "Data Pipelines", "Serverless Architecture"
+    "Business Intelligence",
+    "Power BI",
+    "Data Analytics",
+    "Azure Data Engineering",
+    "Data Engineering",
+    "Data Visualization",
+    "ETL",
+    "Data Pipelines"
   ],
   "targetRoles": [
-    "Backend Engineer Intern", "SDE Intern", "Software Developer Intern",
-    "Software Engineer Intern", "Full Stack Developer Intern"
+    "BI Analyst",
+    "Business Intelligence Analyst",
+    "Power BI Analyst",
+    "Power BI Developer",
+    "Power BI Consultant",
+    "Data Analyst",
+    "Junior Data Analyst",
+    "Azure Data Engineer",
+    "Azure Data Engineering",
+    "Data Engineer",
+    "Junior Data Engineer",
+    "BI Developer",
+    "Business Intelligence Developer"
   ],
-  "targetLocations": ["India", "Remote", "Work From Home"],
-  "experienceLevel": "Fresher / 0-1 years / New Grad / Entry Level"
+  "targetLocations": [
+    "India",
+    "Remote",
+    "Work From Home"
+  ],
+  "experienceLevel": "2-3 years / Mid-level / 2+ years"
 }

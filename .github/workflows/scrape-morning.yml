@@ -1,49 +1,34 @@
-name: 🌅 Morning Scrape (Full — with SerpAPI)
+name: 🌅 Morning Job Alerts
 
 on:
-  workflow_dispatch:  # Triggered externally by cron-job.org at 9:00 AM IST (3:30 AM UTC) daily
+  workflow_dispatch:
+  schedule:
+    # 9:00 AM IST = 3:30 AM UTC
+    - cron: '30 3 * * *'
 
-# FIX Issue 1: Removed 'contents: write' permission — no longer needed since
-# we use Actions Cache instead of git-committing the DB back to the repo.
 permissions:
   contents: read
 
 jobs:
   scrape:
-    name: Run Job Scraper
+    name: Run Full Job Alert Scraper
     runs-on: ubuntu-latest
     timeout-minutes: 15
-    env:
-      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
     steps:
-      - name: 📥 Checkout repository
+      - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 1
 
-      - name: 🟢 Setup Node.js 20
+      - name: Setup Node.js 24
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '24'
+          cache: 'npm'
 
-      # FIX Issue 13: Cache node_modules keyed by package-lock.json hash.
-      # npm ci only runs if the lockfile changed — saves ~2 minutes per run.
-      - name: 📦 Cache node_modules
-        id: node-cache
-        uses: actions/cache@v4
-        with:
-          path: node_modules
-          key: node-modules-${{ hashFiles('package-lock.json') }}
-
-      - name: 📦 Install dependencies (only if cache miss)
-        if: steps.node-cache.outputs.cache-hit != 'true'
+      - name: Install dependencies
         run: npm ci
 
-      # FIX Issue 1: Restore seen_jobs.json from Actions Cache (not from git).
-      # Cache key is static — always restore the latest version saved.
-      # restore-keys acts as a fallback if the exact key isn't found (e.g. first run).
-      - name: 🗄 Restore seen_jobs cache
+      - name: Restore seen jobs database
         uses: actions/cache/restore@v4
         with:
           path: data/seen_jobs.json
@@ -51,22 +36,19 @@ jobs:
           restore-keys: |
             seen-jobs-db-
 
-      - name: 🤖 Run job scraper (Full Mode — SerpAPI + LLM enabled)
+      - name: Run job scraper
         env:
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
-          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
           USE_SERPAPI: 'true'
           USE_LLM: 'true'
           DRY_RUN: 'false'
         run: node src/main.js
 
-      # FIX Issue 1: Save updated DB to Actions Cache — zero git commits.
-      # 'if: always()' ensures cache is saved even if the scraper step fails,
-      # so partial progress (e.g. some jobs notified) is preserved.
-      - name: 🗄 Save seen_jobs cache
+      - name: Save seen jobs database
         if: always()
         uses: actions/cache/save@v4
         with:

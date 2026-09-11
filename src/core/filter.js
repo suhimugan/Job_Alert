@@ -1,101 +1,237 @@
 'use strict';
 
-// ─── CS Role Keywords — matched ONLY against job title ───────────────────────
-// FIX Issue 8: Scope allow/block checks to title only, not company/description.
-// This prevents "Salesforce" company from being blocked by 'sales' keyword,
-// and prevents "Security Guard" from passing as a CS role.
+// ─── Target Role Keywords ────────────────────────────────────────────────────
+
 const ALLOW_KEYWORDS = [
-  // Core engineering roles
-  'software engineer', 'software developer', 'software development',
-  'sde', 'swe', 'systems engineer', 'systems developer',
-  // Specializations
-  'backend developer', 'backend engineer', 'back-end developer', 'back-end engineer',
-  'frontend developer', 'frontend engineer', 'front-end developer', 'front-end engineer',
-  'full stack', 'fullstack', 'full-stack',
-  'mobile developer', 'mobile engineer', 'ios developer', 'android developer',
-  'data engineer', 'data scientist', 'data analyst',
-  'machine learning', 'ml engineer', 'ai engineer',
-  'devops engineer', 'site reliability', 'sre', 'platform engineer',
-  'cloud engineer', 'infrastructure engineer',
-  'security engineer', 'cybersecurity engineer', 'application security',
-  'embedded engineer', 'firmware engineer',
-  'qa engineer', 'quality assurance engineer', 'automation engineer', 'test engineer',
-  // Fresher/intern specific
-  'intern', 'internship', 'trainee', 'fresher', 'new grad', 'entry level', 'junior developer',
-  'junior engineer', 'associate engineer', 'associate developer', 'graduate engineer',
-  // Domain terms that in a title context are unambiguous
-  'computer science', 'deep learning', 'nlp engineer', 'computer vision',
-  'blockchain developer', 'web developer', 'api developer',
-  'react developer', 'node developer', 'python developer',
-  'java developer', 'golang developer', 'rust developer',
-  'kubernetes', 'docker', 'microservices',
+  'bi analyst',
+  'business intelligence',
+  'power bi',
+  'powerbi',
+  'power bi developer',
+  'power bi analyst',
+  'bi developer',
+  'bi consultant',
+  'business intelligence developer',
+  'business intelligence analyst',
+  'data analyst',
+  'data analytics',
+  'data engineer',
+  'azure data engineer',
+  'azure data engineering',
+  'dax',
+  'power query',
+  'azure data factory',
+  'azure synapse',
 ];
 
-// ─── Blocklist — matched ONLY against job title ─────────────────────────────
+// ─── Blocklist ───────────────────────────────────────────────────────────────
+
 const BLOCK_KEYWORDS = [
-  'sales executive', 'sales manager', 'sales representative', 'sales associate',
-  'business development', 'marketing manager', 'digital marketing',
-  'financial analyst', 'business analyst', 'hr executive', 'human resources',
-  'legal counsel', 'operations manager', 'project manager', 'product manager',
-  'content writer', 'graphic designer', 'ui/ux designer',
-  'customer success', 'customer support', 'account manager', 'account executive',
-  'recruiter', 'talent acquisition',
-  'mechanical engineer', 'civil engineer', 'electrical engineer', 'hardware engineer',
-  'supply chain', 'logistics coordinator',
+  'sales executive',
+  'sales manager',
+  'sales representative',
+  'sales associate',
+  'marketing manager',
+  'digital marketing',
+  'financial analyst',
+  'hr executive',
+  'human resources',
+  'legal counsel',
+  'operations manager',
+  'project manager',
+  'product manager',
+  'content writer',
+  'graphic designer',
+  'ui/ux designer',
+  'customer success',
+  'customer support',
+  'account manager',
+  'account executive',
+  'recruiter',
+  'talent acquisition',
+  'mechanical engineer',
+  'civil engineer',
+  'electrical engineer',
+  'hardware engineer',
+  'supply chain',
+  'logistics coordinator',
 ];
 
-// ─── Experience killers — checked against full text (title + description) ────
+// ─── Experience Killers ──────────────────────────────────────────────────────
+
 const OVER_EXPERIENCED = [
-  '10+ years', '10 years experience', '9+ years', '8+ years',
-  '7+ years', '6+ years', '5+ years', '5 years of experience',
-  '6 years of experience', '7 years of experience',
-  'minimum 5 years', 'at least 5 years',
+  '10+ years',
+  '10 years experience',
+  '10 years of experience',
+  '9+ years',
+  '9 years experience',
+  '9 years of experience',
+  '8+ years',
+  '8 years experience',
+  '8 years of experience',
+  '7+ years',
+  '7 years experience',
+  '7 years of experience',
+  '6+ years',
+  '6 years experience',
+  '6 years of experience',
+  '5+ years',
+  '5 years experience',
+  '5 years of experience',
+  'minimum 5 years',
+  'at least 5 years',
 ];
 
-/**
- * FIX Issue 8: Run ALLOW/BLOCK checks on title only.
- * Reserve fullText scan only for experience-level detection.
- */
+// ─── Internship / Fresher / New-Grad Blockers ────────────────────────────────
+
+const EARLY_CAREER_KEYWORDS = [
+  'intern',
+  'internship',
+  'trainee',
+  'fresher',
+  'freshers',
+  'new grad',
+  'new graduate',
+  'graduate trainee',
+  'campus hiring',
+  'campus hire',
+  'entry level',
+  'entry-level',
+  '0-1 years',
+  '0–1 years',
+  '0 to 1 years',
+  '0-2 years',
+  '0–2 years',
+  '0 to 2 years',
+  '1 year experience',
+  '1 year of experience',
+];
+
+// ─── Walk-in / Urgent Hiring Keywords ────────────────────────────────────────
+
+const WALK_IN_KEYWORDS = [
+  'walk-in',
+  'walk in',
+  'walk-in interview',
+  'walk in interview',
+  'walk-in drive',
+  'walk in drive',
+  'hiring drive',
+  'hiring drives',
+  'job drive',
+  'open interview',
+  'open interviews',
+  'immediate joining',
+  'urgent hiring',
+  'mass hiring',
+];
+
+// ─── Relevance Check ─────────────────────────────────────────────────────────
+
 function isRelevant(job) {
-  const titleOnly = (job.title || '').toLowerCase();
-  const fullText = `${job.title || ''} ${job.description || ''}`.toLowerCase();
+  const titleOnly = (job.title || '').toLowerCase().trim();
 
-  // Title must match at least one CS keyword (compound phrases = fewer false positives)
-  const hasCS = ALLOW_KEYWORDS.some(kw => titleOnly.includes(kw));
-  if (!hasCS) return false;
+  const fullText =
+    `${job.title || ''} ${job.description || ''}`.toLowerCase();
 
-  // Title must not match explicit non-CS role
-  const isBlocked = BLOCK_KEYWORDS.some(kw => titleOnly.includes(kw));
-  if (isBlocked) return false;
+  // Title must contain at least one target role/skill.
+  const hasTargetRole = ALLOW_KEYWORDS.some((keyword) =>
+    titleOnly.includes(keyword)
+  );
 
-  // Full text checked only for experience level (descriptions contain years-of-exp requirements)
-  const isTooSenior = OVER_EXPERIENCED.some(kw => fullText.includes(kw));
-  if (isTooSenior) return false;
+  if (!hasTargetRole) {
+    return false;
+  }
+
+  // Reject clearly unrelated roles.
+  const isBlocked = BLOCK_KEYWORDS.some((keyword) =>
+    titleOnly.includes(keyword)
+  );
+
+  if (isBlocked) {
+    return false;
+  }
+
+  // Reject internships, fresher and new-grad roles.
+  const isEarlyCareer = EARLY_CAREER_KEYWORDS.some((keyword) =>
+    fullText.includes(keyword)
+  );
+
+  if (isEarlyCareer) {
+    return false;
+  }
+
+  // Reject clearly senior roles requiring 5+ years.
+  const isTooSenior = OVER_EXPERIENCED.some((keyword) =>
+    fullText.includes(keyword)
+  );
+
+  if (isTooSenior) {
+    return false;
+  }
 
   return true;
 }
 
-/**
- * Detect job type from title/description
- */
+// ─── Detect Job Type ─────────────────────────────────────────────────────────
+
 function detectJobType(job) {
-  const text = `${job.title || ''} ${job.description || ''}`.toLowerCase();
-  if (text.includes('intern') || text.includes('internship') || text.includes('trainee')) return 'internship';
-  if (text.includes('contract') || text.includes('freelance') || text.includes('part-time')) return 'contract';
+  const text =
+    `${job.title || ''} ${job.description || ''}`.toLowerCase();
+
+  if (
+    text.includes('intern') ||
+    text.includes('internship') ||
+    text.includes('trainee')
+  ) {
+    return 'internship';
+  }
+
+  if (
+    text.includes('contract') ||
+    text.includes('freelance') ||
+    text.includes('part-time')
+  ) {
+    return 'contract';
+  }
+
   return 'fulltime';
 }
 
-/**
- * Filter and enrich an array of raw jobs
- */
+// ─── Filter and Enrich Jobs ──────────────────────────────────────────────────
+
 function filterJobs(jobs) {
   return jobs
-    .filter(j => j && j.title && j.url)
+    .filter(
+      (job) =>
+        job &&
+        job.title &&
+        job.url
+    )
     .filter(isRelevant)
-    .map(job => ({
-      ...job,
-      type: job.type || detectJobType(job),
-    }));
+    .map((job) => {
+      const fullText =
+        `${job.title || ''} ${job.description || ''}`.toLowerCase();
+
+      return {
+        ...job,
+
+        type:
+          job.type ||
+          detectJobType(job),
+
+        isWalkIn:
+          WALK_IN_KEYWORDS.some((keyword) =>
+            fullText.includes(keyword)
+          ),
+      };
+    });
 }
 
-module.exports = { filterJobs, isRelevant, detectJobType };
+// ─── Exports ─────────────────────────────────────────────────────────────────
+
+module.exports = {
+  filterJobs,
+  isRelevant,
+  detectJobType,
+};

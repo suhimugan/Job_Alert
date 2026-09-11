@@ -4,136 +4,394 @@ const { GoogleGenAI } = require('@google/genai');
 const fs = require('fs');
 const path = require('path');
 
-// ─── Load candidate profile ────────────────────────────────────────────────
-const PROFILE_PATH = path.join(__dirname, '..', '..', 'data', 'resume_profile.json');
+// ─────────────────────────────────────────────────────────────────────────────
+// Candidate profile
+// ─────────────────────────────────────────────────────────────────────────────
+
+const PROFILE_PATH = path.join(
+  __dirname,
+  '..',
+  '..',
+  'data',
+  'resume_profile.json'
+);
+
 let candidateProfile;
+
 try {
-  candidateProfile = JSON.parse(fs.readFileSync(PROFILE_PATH, 'utf8'));
-} catch {
-  console.warn('[LLM] Could not load resume_profile.json — using fallback profile.');
+  candidateProfile = JSON.parse(
+    fs.readFileSync(PROFILE_PATH, 'utf8')
+  );
+} catch (error) {
+  console.warn(
+    '[LLM] Could not load resume_profile.json — using fallback profile.'
+  );
+
   candidateProfile = {
-    name: 'CS Student',
-    coreStack: ['Node.js', 'JavaScript', 'REST APIs'],
-    targetRoles: ['Software Engineer Intern'],
-    experienceLevel: 'Fresher',
+    name: 'Candidate',
+    education: 'MTech in Data Science, BTech in Information Technology',
+
+    coreStack: [
+      'Power BI',
+      'DAX',
+      'Power Query',
+      'SQL',
+      'Microsoft Excel',
+      'Azure',
+      'Azure Data Factory',
+      'Azure Synapse Analytics',
+      'Data Engineering',
+      'Data Analysis',
+      'Business Intelligence',
+      'ETL',
+      'Data Visualization',
+    ],
+
+    interests: [
+      'Business Intelligence',
+      'Power BI',
+      'Data Analytics',
+      'Azure Data Engineering',
+      'Data Engineering',
+      'Data Visualization',
+      'ETL',
+      'Data Pipelines',
+    ],
+
+    targetRoles: [
+      'BI Analyst',
+      'Business Intelligence Analyst',
+      'Power BI Analyst',
+      'Power BI Developer',
+      'Power BI Consultant',
+      'Data Analyst',
+      'Azure Data Engineer',
+      'Data Engineer',
+      'BI Developer',
+      'Business Intelligence Developer',
+    ],
+
+    targetLocations: [
+      'India',
+      'Remote',
+      'Work From Home',
+    ],
+
+    experienceLevel: '2-3 years / Mid-level / 2+ years',
   };
 }
 
 const PROFILE_SUMMARY = `
-Name: ${candidateProfile.name}
-Education: ${candidateProfile.education || 'CS Student'}
-Core Tech Stack: ${candidateProfile.coreStack.join(', ')}
-Interests: ${(candidateProfile.interests || []).join(', ')}
-Target Roles: ${candidateProfile.targetRoles.join(', ')}
-Target Locations: ${(candidateProfile.targetLocations || []).join(', ')}
-Experience Level: ${candidateProfile.experienceLevel || 'Fresher'}
+Candidate:
+${candidateProfile.name}
+
+Education:
+${candidateProfile.education || 'Not specified'}
+
+Core Skills:
+${(candidateProfile.coreStack || []).join(', ')}
+
+Interests:
+${(candidateProfile.interests || []).join(', ')}
+
+Target Roles:
+${(candidateProfile.targetRoles || []).join(', ')}
+
+Target Locations:
+${(candidateProfile.targetLocations || []).join(', ')}
+
+Target Experience:
+${candidateProfile.experienceLevel || '2-3 years / Mid-level / 2+ years'}
 `.trim();
 
-// ─── Polite delay to stay within Gemini rate limits (15 RPM free tier) ────
+// ─────────────────────────────────────────────────────────────────────────────
+// Helpers
+// ─────────────────────────────────────────────────────────────────────────────
+
 function sleep(ms) {
-  return new Promise(resolve => setTimeout(resolve, ms));
+  return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
-/**
- * Evaluate a single job against the candidate profile using Gemini 1.5 Flash.
- * Returns the original job object enriched with matchScore, aiReason, coldPitch.
- * On failure, returns the original job unchanged (graceful degradation).
- */
-async function evaluateSingleJob(ai, job) {
-  const prompt = `You are an expert tech recruiter evaluating a job listing for a specific candidate.
+function clampScore(value) {
+  const number = Number(value);
 
-CANDIDATE PROFILE:
+  if (!Number.isFinite(number)) {
+    return 0;
+  }
+
+  return Math.min(100, Math.max(0, Math.round(number)));
+}
+
+function cleanText(value, maxLength) {
+  if (!value) return '';
+
+  return String(value)
+    .replace(/\s+/g, ' ')
+    .trim()
+    .slice(0, maxLength);
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+// Evaluate one job
+// ─────────────────────────────────────────────────────────────────────────────
+
+async function evaluateSingleJob(ai, job) {
+  const prompt = `
+You are an expert technical recruiter and job-matching system.
+
+Your job is to evaluate whether the following job is a strong match for the candidate.
+
+CANDIDATE PROFILE
+─────────────────
 ${PROFILE_SUMMARY}
 
-JOB LISTING:
+JOB LISTING
+───────────
 Title: ${job.title || 'Unknown'}
 Company: ${job.company || 'Unknown'}
 Location: ${job.location || 'Not specified'}
-Type: ${job.type || 'Unknown'}
+Job Type: ${job.type || 'Unknown'}
 Source: ${job.source || 'Unknown'}
-Description: ${(job.description || 'No description available').slice(0, 800)}
+Posted: ${job.postedAt || 'Unknown'}
 
-TASKS:
-1. Provide a match score from 0 to 100 based on how well this job aligns with the candidate's stack, experience level, interests, and target locations.
-2. Write exactly 1 sentence explaining the score (focus on stack alignment and level fit).
-3. Write a 2-sentence polite cold outreach message the candidate could send to a recruiter or hiring manager on LinkedIn to express interest.
+Description:
+${(job.description || 'No description available').slice(0, 2500)}
 
-Return ONLY valid JSON with this exact schema:
-{"matchScore": 85, "reason": "Strong match because...", "coldPitch": "Hi, I noticed..."}`;
+MATCHING RULES
+──────────────
+Score the job from 0 to 100.
+
+IMPORTANT PRIORITIES:
+
+1. Target roles are:
+   - BI Analyst
+   - Business Intelligence Analyst
+   - Power BI Analyst
+   - Power BI Developer
+   - Power BI Consultant
+   - Data Analyst
+   - Azure Data Engineer
+   - Data Engineer
+   - BI Developer
+   - Business Intelligence Developer
+
+2. Strong positive signals:
+   - Power BI
+   - DAX
+   - Power Query
+   - SQL
+   - Azure
+   - Azure Data Factory
+   - Azure Synapse
+   - ETL / ELT
+   - Data pipelines
+   - Business Intelligence
+   - Data Analytics
+   - Data Visualization
+
+3. EXPERIENCE FIT IS VERY IMPORTANT:
+   - 2-3 years = ideal
+   - 2+ years = strong
+   - 3-4 years = acceptable
+   - 0-1 years = poor fit
+   - 0-2 years = poor fit
+   - Fresher / Internship / Graduate / Trainee = poor fit
+   - 5+ years = poor fit
+   - 6+ years = very poor fit
+
+4. Penalize jobs that are primarily:
+   - Sales
+   - Marketing
+   - HR
+   - Finance
+   - Customer Support
+   - Project Management
+   - Product Management
+   - Mechanical/Civil/Electrical engineering
+   - unrelated software engineering
+
+5. Location:
+   - India = strong positive
+   - Remote / Work From Home = strong positive
+   - Other locations = lower score unless the company/job is exceptionally relevant
+
+6. Do NOT reward a job simply because it contains generic words such as:
+   "data", "technology", "analytics", or "SQL".
+   The actual role and responsibilities must be relevant.
+
+7. A Power BI / BI / Data Analyst role with 2-3 years experience should generally score
+   significantly higher than an unrelated data/software role.
+
+8. A job requiring 5+ years should generally score below 50 even if the technical stack is excellent.
+
+9. A fresher/internship/trainee role should generally score below 40.
+
+10. Be conservative. Only give 80+ when the role is genuinely a strong match.
+
+SCORING GUIDANCE
+────────────────
+90-100 = Excellent match
+80-89  = Strong match
+70-79  = Good match
+60-69  = Moderate match
+40-59  = Weak match
+0-39   = Poor match
+
+Return ONLY valid JSON.
+
+Use exactly this schema:
+
+{
+  "matchScore": 85,
+  "reason": "One concise sentence explaining the score.",
+  "coldPitch": "Two short sentences the candidate could send to a recruiter."
+}
+`;
 
   try {
     const response = await ai.models.generateContent({
-      model: 'gemini-1.5-flash',
+      model: 'gemini-3.6-flash',
       contents: prompt,
       config: {
         responseMimeType: 'application/json',
-        temperature: 0.3, // Low temperature for consistent, factual scoring
+        temperature: 0.2,
       },
     });
 
-    const text = response.text;
+    const text =
+      typeof response.text === 'function'
+        ? response.text()
+        : response.text;
+
     const result = JSON.parse(text);
 
     return {
       ...job,
-      matchScore: Math.min(100, Math.max(0, Number(result.matchScore) || 0)),
-      aiReason: (result.reason || '').slice(0, 200),
-      coldPitch: (result.coldPitch || '').slice(0, 300),
+
+      matchScore: clampScore(result.matchScore),
+
+      aiReason: cleanText(
+        result.reason ||
+          'AI evaluation completed.',
+        250
+      ),
+
+      coldPitch: cleanText(
+        result.coldPitch || '',
+        350
+      ),
     };
-  } catch (err) {
-    console.warn(`[LLM] ⚠️ Failed to evaluate "${job.title}" @ ${job.company}: ${err.message}`);
-    return job; // Graceful fallback — job passes through unscored
+  } catch (error) {
+    console.warn(
+      `[LLM] Failed to evaluate "${job.title}" @ ${job.company}: ${
+        error.message
+      }`
+    );
+
+    // Graceful degradation:
+    // If Gemini fails, keep the original job.
+    return job;
   }
 }
 
-/**
- * Evaluate an array of jobs against the candidate profile.
- * Jobs are processed sequentially with a delay to respect rate limits.
- *
- * @param {Array} jobs - Array of filtered job objects
- * @returns {Array} - Same jobs with matchScore, aiReason, coldPitch appended (where available)
- */
+// ─────────────────────────────────────────────────────────────────────────────
+// Evaluate all jobs
+// ─────────────────────────────────────────────────────────────────────────────
+
 async function evaluateJobs(jobs) {
   const apiKey = process.env.GEMINI_API_KEY;
+
   if (!apiKey) {
-    console.warn('[LLM] GEMINI_API_KEY not set — skipping LLM evaluation.');
+    console.warn(
+      '[LLM] GEMINI_API_KEY not set — skipping LLM evaluation.'
+    );
+
     return jobs;
   }
 
-  const ai = new GoogleGenAI({ apiKey });
+  if (!Array.isArray(jobs) || jobs.length === 0) {
+    console.log('[LLM] No jobs to evaluate.');
+
+    return jobs || [];
+  }
+
+  const ai = new GoogleGenAI({
+    apiKey,
+  });
+
   const evaluated = [];
-  const total = jobs.length;
 
-  console.log(`[LLM] Evaluating ${total} jobs against candidate profile...`);
+  console.log(
+    `\n🧠 [LLM] Evaluating ${jobs.length} jobs against candidate profile...`
+  );
 
-  for (let i = 0; i < total; i++) {
+  for (let i = 0; i < jobs.length; i++) {
     const job = jobs[i];
-    console.log(`[LLM]  ${i + 1}/${total}: "${job.title}" @ ${job.company}`);
+
+    console.log(
+      `[LLM] ${i + 1}/${jobs.length}: "${job.title}" @ ${
+        job.company || 'Unknown'
+      }`
+    );
 
     const result = await evaluateSingleJob(ai, job);
+
     evaluated.push(result);
 
     if (result.matchScore != null) {
-      console.log(`[LLM]    → Score: ${result.matchScore}% | ${result.aiReason || ''}`);
+      console.log(
+        `[LLM]   → Score: ${result.matchScore}% | ${
+          result.aiReason || 'No reason returned'
+        }`
+      );
     }
 
-    // Rate-limit safety: 500ms between calls = max 120 RPM, well under 15 RPM limit
-    // (sequential processing means actual RPM is ~2-3 RPM with LLM response latency)
-    if (i < total - 1) {
+    // Small delay between requests.
+    if (i < jobs.length - 1) {
       await sleep(500);
     }
   }
 
-  const scored = evaluated.filter(j => j.matchScore != null);
-  console.log(`[LLM] ✅ Scored ${scored.length}/${total} jobs.`);
+  const scored = evaluated.filter(
+    (job) => job.matchScore != null
+  );
+
+  console.log(
+    `\n🧠 [LLM] Scored ${scored.length}/${jobs.length} jobs.`
+  );
 
   if (scored.length > 0) {
-    const avg = Math.round(scored.reduce((sum, j) => sum + j.matchScore, 0) / scored.length);
-    const high = scored.filter(j => j.matchScore >= 80).length;
-    console.log(`[LLM]    Average score: ${avg}% | High matches (≥80%): ${high}`);
+    const average = Math.round(
+      scored.reduce(
+        (sum, job) => sum + job.matchScore,
+        0
+      ) / scored.length
+    );
+
+    const excellent = scored.filter(
+      (job) => job.matchScore >= 90
+    ).length;
+
+    const strong = scored.filter(
+      (job) => job.matchScore >= 80
+    ).length;
+
+    console.log(
+      `[LLM] Average score: ${average}%`
+    );
+
+    console.log(
+      `[LLM] Excellent matches (90+): ${excellent}`
+    );
+
+    console.log(
+      `[LLM] Strong matches (80+): ${strong}`
+    );
   }
 
   return evaluated;
 }
 
-module.exports = { evaluateJobs };
+module.exports = {
+  evaluateJobs,
+};
