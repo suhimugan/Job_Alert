@@ -1,151 +1,246 @@
 'use strict';
 
-const axios = require('axios');
-const cheerio = require('cheerio');
+const { chromium } = require('playwright');
 
 const SEARCH_URLS = [
-  'https://www.naukri.com/software-engineer-fresher-jobs?experience=0,1&jobAge=1',
-  'https://www.naukri.com/software-developer-fresher-jobs?experience=0,1&jobAge=3',
-  'https://www.naukri.com/data-engineer-fresher-jobs?experience=0,1',
-  'https://www.naukri.com/machine-learning-engineer-fresher-jobs?experience=0,1',
-  'https://www.naukri.com/full-stack-developer-fresher-jobs?experience=0,1',
+  'https://www.naukri.com/power-bi-developer-jobs?jobAge=3',
+  'https://www.naukri.com/power-bi-analyst-jobs?jobAge=3',
+  'https://www.naukri.com/data-analyst-jobs?jobAge=3',
+  'https://www.naukri.com/business-intelligence-analyst-jobs?jobAge=3',
+  'https://www.naukri.com/data-engineer-jobs?jobAge=3',
+  'https://www.naukri.com/azure-data-engineer-jobs?jobAge=3'
 ];
 
-const HEADERS = {
-  'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
-  'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-  'Accept-Language': 'en-US,en;q=0.5',
-  'Referer': 'https://www.naukri.com/',
-  'sec-ch-ua': '"Chromium";v="124"',
-  'sec-fetch-dest': 'document',
-  'sec-fetch-mode': 'navigate',
-};
-
-async function fetchPage(url) {
-  try {
-    const res = await axios.get(url, { headers: HEADERS, timeout: 20000 });
-    return res.data;
-  } catch (err) {
-    console.error(`[Naukri] Fetch error: ${err.message}`);
-    return null;
-  }
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-function extractNextData(html) {
-  // Naukri embeds job data as JSON in a <script id="__NEXT_DATA__"> tag
-  const match = html.match(/<script id="__NEXT_DATA__"[^>]*>([\s\S]*?)<\/script>/);
+function extractExperience(text) {
+  const match = text.match(/(\d+)\s*-\s*(\d+)\s*Yrs?/i);
+
   if (match) {
-    try {
-      return JSON.parse(match[1]);
-    } catch {
-      return null;
-    }
+    return `${match[1]}-${match[2]} years`;
   }
-  return null;
+
+  const single = text.match(/(\d+)\+?\s*Yrs?/i);
+
+  if (single) {
+    return `${single[1]}+ years`;
+  }
+
+  return '';
 }
 
-function parseFromNextData(data) {
-  const jobs = [];
-  try {
-    // Navigate the Next.js data structure to find job listings
-    const props = data?.props?.pageProps;
-    const jobData = props?.jobData || props?.jobsData || props?.data;
-    const listings = jobData?.jobDetails || jobData?.jobs || jobData?.results || [];
+function extractLocation(text, url) {
+  const cities = [
+    'Bengaluru',
+    'Bangalore',
+    'Mumbai',
+    'Pune',
+    'Hyderabad',
+    'Delhi',
+    'Delhi / NCR',
+    'Gurgaon',
+    'Gurugram',
+    'Noida',
+    'Chennai',
+    'Kolkata',
+    'Ahmedabad',
+    'Kochi',
+    'Thane',
+    'Remote',
+    'Work From Home',
+    'Hybrid'
+  ];
 
-    for (const item of listings) {
-      const title = item.title || item.jobTitle || '';
-      const company = item.companyName || item.company || '';
-      const location = item.placeholders?.find(p => p.type === 'location')?.label ||
-                       item.location || item.city || 'India';
-      const salary = item.placeholders?.find(p => p.type === 'salary')?.label || '';
-      const experience = item.experience || '';
-      const jobId = item.jobId || item.id || '';
-      const url = jobId ? `https://www.naukri.com/job-listings-${title.replace(/\s+/g, '-').toLowerCase()}-${company.replace(/\s+/g, '-').toLowerCase()}-${jobId}` : '';
+  const lines = text
+    .split('\n')
+    .map(line => line.trim())
+    .filter(Boolean);
 
-      if (title) {
-        jobs.push({
-          title,
-          company,
-          location: location || 'India',
-          salary,
-          url: url || 'https://www.naukri.com',
-          postedAt: item.footerPlaceholderLabel || '',
-          type: title.toLowerCase().includes('intern') ? 'internship' : 'fulltime',
-          source: 'Naukri',
-        });
+  const location = lines.find(line =>
+    cities.some(city =>
+      line.toLowerCase().includes(city.toLowerCase())
+    )
+  );
+
+  return location || 'India';
+}
+
+function extractCompany(cardText, title) {
+  const lines = cardText
+    .split('\n')
+    .map(line => line.trim())
+    .filter(Boolean);
+
+  const titleIndex = lines.findIndex(
+    line => line.toLowerCase() === title.toLowerCase()
+  );
+
+  if (titleIndex >= 0) {
+    for (
+      let i = titleIndex + 1;
+      i < Math.min(titleIndex + 6, lines.length);
+      i++
+    ) {
+      const line = lines[i];
+
+      if (
+        !/^\d+(\.\d+)?$/.test(line) &&
+        !/^\d+(\.\d+)?\s*Reviews?$/i.test(line) &&
+        !/^\d+\s*-\s*\d+\s*Yrs?/i.test(line) &&
+        !/^\d+(\.\d+)?\s*(Lacs?|Lakhs?)/i.test(line)
+      ) {
+        return line;
       }
     }
-  } catch (err) {
-    console.warn('[Naukri] Error parsing __NEXT_DATA__:', err.message);
   }
-  return jobs;
+
+  return 'Company on Naukri';
 }
 
-function parseWithCheerio(html) {
-  const $ = cheerio.load(html);
-  const jobs = [];
+async function extractJobs(page) {
+  const rawJobs = await page
+    .locator('a[href*="/job-listings-"]')
+    .evaluateAll(anchors => {
+      return anchors.map(anchor => {
+        const title = (anchor.innerText || '').trim();
+        const url = anchor.href;
 
-  // Naukri job cards
-  $('article.jobTuple, .cust-job-tuple, [class*="job-container"], .jobsearch-SerpJobCard').each((_, el) => {
-    const card = $(el);
-    const title = card.find('a.title, .title a, h2 a, [class*="jobTitle"]').first().text().trim();
-    const company = card.find('.comp-name, [class*="companyName"], .company-name').first().text().trim();
-    const location = card.find('.loc-wrap, [class*="location"], .loc').first().text().trim() || 'India';
-    const salary = card.find('.salary-detail, [class*="salary"]').first().text().trim();
-    const url = card.find('a.title, a[href*="naukri.com/job"]').attr('href') || '';
+        let node = anchor;
+        let cardText = title;
 
-    if (title) {
-      jobs.push({
-        title,
-        company: company || 'Company on Naukri',
-        location,
-        salary,
-        url: url.startsWith('http') ? url : `https://www.naukri.com${url}`,
-        type: title.toLowerCase().includes('intern') ? 'internship' : 'fulltime',
-        source: 'Naukri',
+        for (let i = 0; i < 8 && node; i++) {
+          const text = (node.innerText || '').trim();
+
+          if (
+            text.length > cardText.length &&
+            text.includes(title)
+          ) {
+            cardText = text;
+          }
+
+          node = node.parentElement;
+        }
+
+        return {
+          title,
+          url,
+          cardText
+        };
       });
+    });
+
+  const jobs = [];
+  const seenUrls = new Set();
+
+  for (const item of rawJobs) {
+    if (!item.title || !item.url) {
+      continue;
     }
-  });
+
+    if (seenUrls.has(item.url)) {
+      continue;
+    }
+
+    seenUrls.add(item.url);
+
+    jobs.push({
+      title: item.title,
+      company: extractCompany(item.cardText, item.title),
+      location: extractLocation(item.cardText, item.url),
+      salary: '',
+      experience: extractExperience(item.cardText),
+      description: item.cardText,
+      url: item.url,
+      postedAt: '',
+      type: item.title.toLowerCase().includes('intern')
+        ? 'internship'
+        : 'fulltime',
+      source: 'Naukri'
+    });
+  }
 
   return jobs;
 }
 
 async function scrape() {
+  console.log('[Naukri] Starting Playwright scraper');
+
+  const browser = await chromium.launch({
+    headless: false
+  });
+
+  const context = await browser.newContext({
+    viewport: {
+      width: 1440,
+      height: 1000
+    },
+    locale: 'en-IN',
+    userAgent:
+      'Mozilla/5.0 (Windows NT 10.0; Win64; x64) ' +
+      'AppleWebKit/537.36 (KHTML, like Gecko) ' +
+      'Chrome/124.0.0.0 Safari/537.36'
+  });
+
+  const page = await context.newPage();
+
   const allJobs = [];
   const seen = new Set();
 
-  for (const url of SEARCH_URLS) {
-    console.log(`[Naukri] Fetching ${url}`);
-    const html = await fetchPage(url);
-    if (!html) continue;
+  try {
+    for (const url of SEARCH_URLS) {
+      console.log(`[Naukri] Opening ${url}`);
 
-    // Try __NEXT_DATA__ first (more structured)
-    let jobs = [];
-    const nextData = extractNextData(html);
-    if (nextData) {
-      jobs = parseFromNextData(nextData);
-      console.log(`[Naukri]   ${jobs.length} jobs from __NEXT_DATA__`);
-    }
+      try {
+        await page.goto(url, {
+          waitUntil: 'domcontentloaded',
+          timeout: 60000
+        });
 
-    // Fallback to cheerio if needed
-    if (jobs.length === 0) {
-      jobs = parseWithCheerio(html);
-      console.log(`[Naukri]   ${jobs.length} jobs from cheerio`);
-    }
+        await page.waitForTimeout(10000);
 
-    for (const job of jobs) {
-      const key = `${job.title}|${job.company}`;
-      if (!seen.has(key)) {
-        seen.add(key);
-        allJobs.push(job);
+        const jobs = await extractJobs(page);
+
+        console.log(`[Naukri]   ${jobs.length} jobs found`);
+
+        for (const job of jobs) {
+          const key =
+            `${job.title.toLowerCase()}|` +
+            `${job.company.toLowerCase()}|` +
+            `${job.location.toLowerCase()}`;
+
+          if (!seen.has(key)) {
+            seen.add(key);
+            allJobs.push(job);
+          }
+        }
+
+        console.log(
+          `[Naukri]   ${allJobs.length} unique jobs so far`
+        );
+
+      } catch (error) {
+        console.error(
+          `[Naukri] Error: ${error.message}`
+        );
       }
-    }
 
-    await new Promise(r => setTimeout(r, 4000)); // Naukri is strict — longer delay
+      await sleep(3000);
+    }
+  } finally {
+    await browser.close();
   }
 
-  console.log(`[Naukri] Total: ${allJobs.length} unique jobs`);
+  console.log(
+    `[Naukri] Total: ${allJobs.length} unique jobs`
+  );
+
   return allJobs;
 }
 
-module.exports = { scrape };
+module.exports = {
+  scrape
+};
+
+

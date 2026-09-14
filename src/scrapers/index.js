@@ -1,34 +1,73 @@
-'use strict';
+﻿'use strict';
 
 const serpapi = require('./serpapi');
 const remoteok = require('./remoteok');
 const weworkremotely = require('./weworkremotely');
 const ycombinator = require('./ycombinator');
 const remotive = require('./remotive');
+const naukri = require('./naukri');
+const linkedin = require('./linkedin');
 
 /**
- * Run all scrapers concurrently with Promise.allSettled.
- * Individual scraper failures never crash the whole run.
- * Returns a flat array of raw job objects.
+ * Run all job discovery sources concurrently.
+ *
+ * Sources:
+ *   - RemoteOK
+ *   - WeWorkRemotely
+ *   - Y Combinator
+ *   - Remotive
+ *   - Naukri
+ *   - LinkedIn / JobSpy
+ *   - SerpAPI / Google
+ *
+ * Individual source failures never crash the whole run.
  */
 async function runAllScrapers(options = {}) {
-  const { useSerpapi = false } = options;
+  const {
+    useSerpapi = false,
+  } = options;
 
   const tasks = [
-    { name: 'RemoteOK', fn: remoteok.scrape },
-    { name: 'WeWorkRemotely', fn: weworkremotely.scrape },
-    { name: 'YCombinator', fn: ycombinator.scrape },
-    { name: 'Remotive', fn: remotive.scrape },
+    {
+      name: 'RemoteOK',
+      fn: remoteok.scrape,
+    },
+
+    {
+      name: 'WeWorkRemotely',
+      fn: weworkremotely.scrape,
+    },
+
+    {
+      name: 'YCombinator',
+      fn: ycombinator.scrape,
+    },
+
+    {
+      name: 'Remotive',
+      fn: remotive.scrape,
+    },
+
+    {
+      name: 'Naukri',
+      fn: naukri.scrape,
+    },
+
+    {
+      name: 'LinkedIn',
+      fn: linkedin.scrape,
+    },
   ];
 
   if (useSerpapi) {
-    const apiKey = process.env.SERPAPI_KEY;
+    const apiKey =
+      process.env.SERPAPI_KEY;
 
     if (apiKey) {
-      // SerpAPI runs sequentially inside its own scraper.
       tasks.push({
-        name: 'SerpAPI (Google Jobs)',
-        fn: () => serpapi.scrape(apiKey),
+        name: 'SerpAPI',
+        fn: () =>
+          serpapi.scrape(apiKey),
       });
     } else {
       console.warn(
@@ -45,27 +84,52 @@ async function runAllScrapers(options = {}) {
     }...\n`
   );
 
-  const results = await Promise.allSettled(
-    tasks.map((task) => task.fn())
-  );
+  const results =
+    await Promise.allSettled(
+      tasks.map(
+        (task) => task.fn()
+      )
+    );
 
   const allJobs = [];
 
-  for (let i = 0; i < tasks.length; i++) {
-    const result = results[i];
+  for (
+    let i = 0;
+    i < tasks.length;
+    i++
+  ) {
+    const result =
+      results[i];
 
-    if (result.status === 'fulfilled') {
-      const jobs = result.value || [];
+    if (
+      result.status ===
+      'fulfilled'
+    ) {
+      const jobs =
+        result.value || [];
 
       console.log(
         `✅ ${tasks[i].name}: ${jobs.length} jobs`
       );
 
-      allJobs.push(...jobs);
+      const taggedJobs =
+        jobs.map((job) => ({
+          ...job,
+
+          // Preserve the scraper source.
+          source:
+            job.source ||
+            tasks[i].name,
+        }));
+
+      allJobs.push(
+        ...taggedJobs
+      );
     } else {
       console.error(
         `❌ ${tasks[i].name} FAILED:`,
-        result.reason?.message || result.reason
+        result.reason?.message ||
+          result.reason
       );
     }
   }

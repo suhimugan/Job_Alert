@@ -3,14 +3,14 @@
 const API_URL = 'https://serpapi.com/search.json';
 
 const QUERIES = [
-  'BI Analyst Business Intelligence Analyst Power BI 2-3 years India jobs',
-  'Power BI Developer Power BI Analyst 2-3 years India jobs',
-  'Data Analyst SQL Power BI 2-3 years India jobs',
-  'Azure Data Engineer Azure Data Factory 2-3 years India jobs',
-  'Data Engineer Azure SQL ETL 2-3 years India jobs',
-  'site:naukri.com Power BI Developer Data Analyst 2-3 years India',
-  'walk in interview Power BI Data Analyst Azure Data Engineer India',
-  'hiring drive walk in immediate joining Power BI Data Analyst India',
+  'Power BI Developer jobs',
+  'Power BI Analyst jobs',
+  'Data Analyst jobs',
+  'Business Intelligence Analyst jobs',
+  'Data Engineer Azure jobs',
+  'Analytics Engineer jobs',
+  'site:naukri.com Power BI Data Analyst jobs',
+  'site:linkedin.com/jobs Power BI Data Analyst jobs',
 ];
 
 const INDIA_KEYWORDS = [

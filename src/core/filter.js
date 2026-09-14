@@ -1,30 +1,35 @@
-'use strict';
+﻿'use strict';
 
-// ─── Target Role Keywords ────────────────────────────────────────────────────
+// ── Target Role / Skill Keywords ─────────────────────────────────────────────
 
 const ALLOW_KEYWORDS = [
   'bi analyst',
   'business intelligence',
+  'business intelligence analyst',
+  'business intelligence developer',
+  'business intelligence engineer',
   'power bi',
   'powerbi',
   'power bi developer',
   'power bi analyst',
+  'power bi consultant',
   'bi developer',
   'bi consultant',
-  'business intelligence developer',
-  'business intelligence analyst',
   'data analyst',
   'data analytics',
   'data engineer',
+  'data engineering',
   'azure data engineer',
   'azure data engineering',
-  'dax',
-  'power query',
   'azure data factory',
   'azure synapse',
+  'analytics engineer',
+  'dax',
+  'power query',
+  'etl',
 ];
 
-// ─── Blocklist ───────────────────────────────────────────────────────────────
+// ── Clearly Unrelated Roles ──────────────────────────────────────────────────
 
 const BLOCK_KEYWORDS = [
   'sales executive',
@@ -57,34 +62,13 @@ const BLOCK_KEYWORDS = [
   'logistics coordinator',
 ];
 
-// ─── Experience Killers ──────────────────────────────────────────────────────
+// ── Early Career / Internship Blockers ───────────────────────────────────────
+//
+// These are checked primarily against the title.
+// We do NOT reject a job merely because its description mentions
+// internship/trainee/etc. as part of general company text.
 
-const OVER_EXPERIENCED = [
-  '10+ years',
-  '10 years experience',
-  '10 years of experience',
-  '9+ years',
-  '9 years experience',
-  '9 years of experience',
-  '8+ years',
-  '8 years experience',
-  '8 years of experience',
-  '7+ years',
-  '7 years experience',
-  '7 years of experience',
-  '6+ years',
-  '6 years experience',
-  '6 years of experience',
-  '5+ years',
-  '5 years experience',
-  '5 years of experience',
-  'minimum 5 years',
-  'at least 5 years',
-];
-
-// ─── Internship / Fresher / New-Grad Blockers ────────────────────────────────
-
-const EARLY_CAREER_KEYWORDS = [
+const EARLY_CAREER_TITLE_KEYWORDS = [
   'intern',
   'internship',
   'trainee',
@@ -97,17 +81,9 @@ const EARLY_CAREER_KEYWORDS = [
   'campus hire',
   'entry level',
   'entry-level',
-  '0-1 years',
-  '0–1 years',
-  '0 to 1 years',
-  '0-2 years',
-  '0–2 years',
-  '0 to 2 years',
-  '1 year experience',
-  '1 year of experience',
 ];
 
-// ─── Walk-in / Urgent Hiring Keywords ────────────────────────────────────────
+// ── Walk-in / Urgent Hiring Keywords ─────────────────────────────────────────
 
 const WALK_IN_KEYWORDS = [
   'walk-in',
@@ -126,63 +102,83 @@ const WALK_IN_KEYWORDS = [
   'mass hiring',
 ];
 
-// ─── Relevance Check ─────────────────────────────────────────────────────────
+// ── Helpers ──────────────────────────────────────────────────────────────────
+
+function normalizeText(value) {
+  return String(value || '')
+    .toLowerCase()
+    .replace(/[–—]/g, '-')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function containsAny(text, keywords) {
+  return keywords.some((keyword) =>
+    text.includes(normalizeText(keyword))
+  );
+}
+
+// ── Relevance Check ──────────────────────────────────────────────────────────
 
 function isRelevant(job) {
-  const titleOnly = (job.title || '').toLowerCase().trim();
+  const title = normalizeText(job.title);
+  const description = normalizeText(job.description);
 
-  const fullText =
-    `${job.title || ''} ${job.description || ''}`.toLowerCase();
-
-  // Title must contain at least one target role/skill.
-  const hasTargetRole = ALLOW_KEYWORDS.some((keyword) =>
-    titleOnly.includes(keyword)
-  );
-
-  if (!hasTargetRole) {
+  if (!title) {
     return false;
   }
 
-  // Reject clearly unrelated roles.
-  const isBlocked = BLOCK_KEYWORDS.some((keyword) =>
-    titleOnly.includes(keyword)
+  // Title is the strongest signal.
+  const titleHasTarget = containsAny(title, ALLOW_KEYWORDS);
+
+  // Description is a secondary discovery signal.
+  // Require multiple strong technical signals when the title itself
+  // does not clearly identify the target role.
+  const descriptionMatches = ALLOW_KEYWORDS.filter((keyword) =>
+    description.includes(normalizeText(keyword))
   );
 
-  if (isBlocked) {
+  const descriptionHasTarget =
+    descriptionMatches.length >= 2;
+
+  if (!titleHasTarget && !descriptionHasTarget) {
     return false;
   }
 
-  // Reject internships, fresher and new-grad roles.
-  const isEarlyCareer = EARLY_CAREER_KEYWORDS.some((keyword) =>
-    fullText.includes(keyword)
-  );
-
-  if (isEarlyCareer) {
+  // Reject clearly unrelated titles.
+  if (containsAny(title, BLOCK_KEYWORDS)) {
     return false;
   }
 
-  // Reject clearly senior roles requiring 5+ years.
-  const isTooSenior = OVER_EXPERIENCED.some((keyword) =>
-    fullText.includes(keyword)
-  );
-
-  if (isTooSenior) {
+  // Reject roles explicitly advertised as internship/fresher/new-grad
+  // when the title itself identifies them that way.
+  if (containsAny(title, EARLY_CAREER_TITLE_KEYWORDS)) {
     return false;
   }
+
+  // IMPORTANT:
+  // Do NOT reject 5+, 6+, 7+, 8+, 9+, 10+ year roles here.
+  // Seniority and actual fit will be evaluated later by Gemini.
 
   return true;
 }
 
-// ─── Detect Job Type ─────────────────────────────────────────────────────────
+// ── Detect Job Type ───────────────────────────────────────────────────────────
 
 function detectJobType(job) {
-  const text =
-    `${job.title || ''} ${job.description || ''}`.toLowerCase();
+  const title = normalizeText(job.title);
+  const text = normalizeText(
+    `${job.title || ''} ${job.description || ''}`
+  );
 
   if (
-    text.includes('intern') ||
-    text.includes('internship') ||
-    text.includes('trainee')
+    containsAny(title, [
+      'intern',
+      'internship',
+      'trainee',
+      'fresher',
+      'new grad',
+    ])
   ) {
     return 'internship';
   }
@@ -198,7 +194,7 @@ function detectJobType(job) {
   return 'fulltime';
 }
 
-// ─── Filter and Enrich Jobs ──────────────────────────────────────────────────
+// ── Filter and Enrich Jobs ────────────────────────────────────────────────────
 
 function filterJobs(jobs) {
   return jobs
@@ -210,8 +206,9 @@ function filterJobs(jobs) {
     )
     .filter(isRelevant)
     .map((job) => {
-      const fullText =
-        `${job.title || ''} ${job.description || ''}`.toLowerCase();
+      const fullText = normalizeText(
+        `${job.title || ''} ${job.description || ''}`
+      );
 
       return {
         ...job,
@@ -221,17 +218,20 @@ function filterJobs(jobs) {
           detectJobType(job),
 
         isWalkIn:
-          WALK_IN_KEYWORDS.some((keyword) =>
-            fullText.includes(keyword)
+          Boolean(job.isWalkIn) ||
+          containsAny(
+            normalizeText(job.title),
+            WALK_IN_KEYWORDS
           ),
       };
     });
 }
 
-// ─── Exports ─────────────────────────────────────────────────────────────────
+// ── Exports ───────────────────────────────────────────────────────────────────
 
 module.exports = {
   filterJobs,
   isRelevant,
   detectJobType,
 };
+

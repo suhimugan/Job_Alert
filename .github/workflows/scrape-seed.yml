@@ -70,7 +70,7 @@ jobs:
         uses: actions/cache/save@v4
         with:
           path: data/seen_jobs.json
-          key: seen-jobs-db-${{ github.run_id }}
+          key: seen-jobs-db-${{ github.ref_name }}-${{ github.run_id }}
 
       - name: ✅ Seed complete — next steps
         run: |
@@ -81,3 +81,4 @@ jobs:
           echo "  The scheduled runs will now only alert you to"
           echo "  genuinely NEW postings going forward."
           echo "════════════════════════════════════════════════"
+

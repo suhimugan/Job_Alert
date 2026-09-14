@@ -17,6 +17,7 @@
     "dotenv": "^16.4.5",
     "node-telegram-bot-api": "^0.64.0",
     "nodemailer": "^10.0.3",
+    "playwright": "^1.63.0",
     "resend": "^6.27.0",
     "rss-parser": "^3.13.0",
     "serpapi": "^2.1.0"

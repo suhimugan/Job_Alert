@@ -1,2721 +1,1119 @@
 {
   "jobs": {
-    "96e1ec4d415dbf34": {
-      "title": "Full Stack Development (MERN)",
-      "company": "Full Stack Development (MERN)\n\n                    \n                                    \n                \n                    \n                        \n                            Attento Technologies Pvt Ltd                        \n                                                    Actively hiring",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T11:37:18.484Z"
-    },
-    "3cea30568f4123f6": {
-      "title": "Tech Support Engineer",
-      "company": "Tech Support Engineer\n\n                    \n                                    \n                \n                    \n                        \n                            I Knowledge Factory Private Limited",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T11:37:18.484Z"
-    },
-    "f4f6538fc3775c7f": {
-      "title": "Full Stack Development",
-      "company": "Full Stack Development\n\n                    \n                                    \n                \n                    \n                        \n                            Freelance Trainings                        \n                                                    Actively hiring",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T11:37:18.484Z"
-    },
-    "e1ef70105d35487d": {
-      "title": "Integration Engineer",
-      "company": "Integration Engineer\n\n                    \n                                    \n                \n                    \n                        \n                            ClearTax                        \n                                                    Actively hiring",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T11:37:18.484Z"
-    },
-    "76067b47ccffcc93": {
-      "title": "Full Stack Development",
-      "company": "Full Stack Development\n\n                    \n                                    \n                \n                    \n                        \n                            Sameer Shah                        \n                                                    Actively hiring",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T11:37:18.484Z"
-    },
-    "6bf7e1899430a362": {
-      "title": "Software Development",
-      "company": "Software Development\n\n                    \n                                    \n                \n                    \n                        \n                            Reflex Realty LLP                        \n                                                    Actively hiring",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T11:37:18.484Z"
-    },
-    "2a29784e3a722a25": {
-      "title": "Backend Development",
-      "company": "Backend Development\n\n                    \n                                    \n                \n                    \n                        \n                            Ranka Jewellers",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T11:37:18.484Z"
-    },
-    "072f1a0dbe8fdd4e": {
-      "title": "Java Development",
-      "company": "Java Development\n\n                    \n                                    \n                \n                    \n                        \n                            Svatantra Microfin Private Limited                        \n                                                    Actively hiring",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T11:37:18.484Z"
-    },
-    "b67fb31d9faae3bf": {
-      "title": "ReactJS Development",
-      "company": "ReactJS Development\n\n                    \n                                    \n                \n                    \n                        \n                            Ask First                        \n                                                    Actively hiring",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T11:37:18.484Z"
-    },
-    "aeeace9fa0fd13b9": {
-      "title": "Software Engineer",
-      "company": "Software Engineer\n\n                    \n                                    \n                \n                    \n                        \n                            MARS Cosmetics                        \n                                                    Actively hiring",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T11:37:18.484Z"
-    },
-    "8ff86213c1367dba": {
-      "title": "Mobile Application Testing (Manual & Automation)",
-      "company": "Mobile Application Testing (Manual & Automation)\n\n                    \n                                    \n                \n                    \n                        \n                            Digitap.ai                        \n                                                    Actively hiring",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T11:37:18.484Z"
-    },
-    "95226667cc144dea": {
-      "title": "Android App Development",
-      "company": "Android App Development\n\n                    \n                                    \n                \n                    \n                        \n                            Tax-O-Smart LLP                        \n                                                    Actively hiring",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T11:37:18.484Z"
-    },
-    "72870e0a768162b1": {
-      "title": "Full Stack Development",
-      "company": "Full Stack Development\n\n                    \n                                    \n                \n                    \n                        \n                            WA Orbit",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T11:37:18.484Z"
-    },
-    "d6d45968699535c2": {
-      "title": "Android App Development",
-      "company": "Android App Development\n\n                    \n                                    \n                \n                    \n                        \n                            Orufy Technologies Private Limited",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T11:37:18.484Z"
-    },
-    "935b8d2eebe13ec8": {
-      "title": "Full Stack Development",
-      "company": "Full Stack Development\n\n                    \n                                    \n                \n                    \n                        \n                            Envirolytics Sustainability Private Limited",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T11:37:18.484Z"
-    },
-    "c5f085c1212f46c4": {
-      "title": "Shopify Developer",
-      "company": "Shopify Developer\n\n                    \n                                    \n                \n                    \n                        \n                            Jeronone Technologies",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T11:37:18.484Z"
-    },
-    "8268af8f175ee70e": {
-      "title": "IT Trainer",
-      "company": "IT Trainer\n\n                    \n                                    \n                \n                    \n                        \n                            TalentHome Solutions",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T11:37:18.484Z"
-    },
-    "9037a52f6a7130bf": {
-      "title": "UI/UX Designer Intern For Dating App",
-      "company": "UI/UX Designer Intern For Dating App\n\n                    \n                                    \n                \n                    \n                        \n                            Mafle",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T11:37:18.484Z"
-    },
-    "537973f2547411b3": {
-      "title": "Full Stack Development",
-      "company": "Full Stack Development\n\n                    \n                                    \n                \n                    \n                        \n                            InstaWeb Labs Private Limited                        \n                                                    Actively hiring",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T11:37:18.484Z"
-    },
-    "746e5a7d589bda5a": {
-      "title": "Full Stack Development",
-      "company": "Full Stack Development\n\n                    \n                                    \n                \n                    \n                        \n                            Lofaz",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T11:37:18.484Z"
-    },
-    "b7d4b0c466b81394": {
-      "title": "AI/ML Engineer",
-      "company": "AI/ML Engineer\n\n                    \n                                    \n                \n                    \n                        \n                            Per4mance Guru                        \n                                                    Actively hiring",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T11:37:18.484Z"
-    },
-    "6737d444be97fba1": {
-      "title": "Java Development",
-      "company": "Java Development\n\n                    \n                                    \n                \n                    \n                        \n                            Tax-O-Smart LLP                        \n                                                    Actively hiring",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T11:37:18.484Z"
-    },
-    "09cfc8ac36eaa64d": {
-      "title": "Data Scientist",
-      "company": "Data Scientist\n\n                    \n                                    \n                \n                    \n                        \n                            Maxgen Technologies Private Limited                        \n                                                    Actively hiring",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T11:37:18.484Z"
-    },
-    "f2063fc3d6cf7de9": {
-      "title": "Data Collection & Annotation",
-      "company": "Data Collection & Annotation\n\n                    \n                                    \n                \n                    \n                        \n                            ConsultBae                        \n                                                    Actively hiring",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T11:37:18.484Z"
-    },
-    "5f21ab192b448ac5": {
-      "title": "AI Agent Development",
-      "company": "AI Agent Development\n\n                    \n                                    \n                \n                    \n                        \n                            Ask First                        \n                                                    Actively hiring",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T11:37:18.484Z"
-    },
-    "7a83406576cab244": {
-      "title": "Artificial Intelligence (AI)",
-      "company": "Artificial Intelligence (AI)\n\n                    \n                                    \n                \n                    \n                        \n                            Thai Research Info Tech",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T11:37:18.484Z"
-    },
-    "7d1f6c516026c5f0": {
-      "title": "Machine Learning",
-      "company": "Machine Learning\n\n                    \n                                    \n                \n                    \n                        \n                            Maxgen Technologies Private Limited                        \n                                                    Actively hiring",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T11:37:18.484Z"
-    },
-    "e7094a814d9c5342": {
-      "title": "Generative AI",
-      "company": "Generative AI\n\n                    \n                                    \n                \n                    \n                        \n                            Maxgen Technologies Private Limited                        \n                                                    Actively hiring",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T11:37:18.484Z"
-    },
-    "d7ab3749afd1f3b4": {
-      "title": "Python Developer",
-      "company": "Python Developer\n\n                    \n                                    \n                \n                    \n                        \n                            Maxgen Technologies Private Limited                        \n                                                    Actively hiring",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T11:37:18.484Z"
-    },
-    "8b95555454091a37": {
-      "title": "Data Science",
-      "company": "Data Science\n\n                    \n                                    \n                \n                    \n                        \n                            Maxgen Technologies Private Limited                        \n                                                    Actively hiring",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T11:37:18.484Z"
-    },
-    "222b8335e041aa9b": {
-      "title": "Full Stack Development (MERN)",
-      "company": "Attento Technologies Pvt Ltd",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T11:40:24.664Z"
-    },
-    "9c077da9593924ef": {
-      "title": "Full Stack Development",
-      "company": "Freelance Trainings",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T11:40:24.664Z"
-    },
-    "1b6457bcc8718c2e": {
-      "title": "Tech Support Engineer",
-      "company": "I Knowledge Factory Private Limited",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T11:40:24.664Z"
-    },
-    "6ec85fa46e74f7de": {
-      "title": "Integration Engineer",
-      "company": "ClearTax",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T11:40:24.664Z"
-    },
-    "b690a3ae7ba9358d": {
-      "title": "Full Stack Development",
-      "company": "Sameer Shah",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T11:40:24.664Z"
-    },
-    "a3be05317bbe3420": {
-      "title": "Software Development",
-      "company": "Reflex Realty LLP",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T11:40:24.664Z"
-    },
-    "0c3279819ba0286c": {
-      "title": "Backend Development",
-      "company": "Ranka Jewellers",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T11:40:24.664Z"
-    },
-    "557d72950d570c01": {
-      "title": "Java Development",
-      "company": "Svatantra Microfin Private Limited",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T11:40:24.664Z"
-    },
-    "d07f356f423016c7": {
-      "title": "ReactJS Development",
-      "company": "Ask First",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T11:40:24.664Z"
-    },
-    "c2e256a7983d3adc": {
-      "title": "Software Engineer",
-      "company": "MARS Cosmetics",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T11:40:24.664Z"
-    },
-    "7323e1cc895dd30f": {
-      "title": "Mobile Application Testing (Manual & Automation)",
-      "company": "Digitap.ai",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T11:40:24.664Z"
-    },
-    "a99630de398fa003": {
-      "title": "Android App Development",
-      "company": "Tax-O-Smart LLP",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T11:40:24.664Z"
-    },
-    "a126ca186e7c5066": {
-      "title": "Full Stack Development",
-      "company": "WA Orbit",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T11:40:24.664Z"
-    },
-    "15a1923c71c0d85e": {
-      "title": "Android App Development",
-      "company": "Orufy Technologies Private Limited",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T11:40:24.664Z"
-    },
-    "3907c66f9d17f6f1": {
-      "title": "Full Stack Development",
-      "company": "Envirolytics Sustainability Private Limited",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T11:40:24.664Z"
-    },
-    "4d5e0890ef24e93e": {
-      "title": "Shopify Developer",
-      "company": "Jeronone Technologies",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T11:40:24.664Z"
-    },
-    "7244342da89954e8": {
-      "title": "IT Trainer",
-      "company": "TalentHome Solutions",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T11:40:24.664Z"
-    },
-    "75977e937fb6b44c": {
-      "title": "UI/UX Designer Intern For Dating App",
-      "company": "Mafle",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T11:40:24.664Z"
-    },
-    "d0ce1f5ebcf458b6": {
-      "title": "Full Stack Development",
-      "company": "InstaWeb Labs Private Limited",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T11:40:24.664Z"
-    },
-    "f4572533c384799d": {
-      "title": "Full Stack Development",
-      "company": "Lofaz",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T11:40:24.664Z"
-    },
-    "06db308f8d9746ce": {
-      "title": "AI/ML Engineer",
-      "company": "Per4mance Guru",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T11:40:24.664Z"
-    },
-    "806916aa5578f29c": {
-      "title": "Java Development",
-      "company": "Tax-O-Smart LLP",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T11:40:24.664Z"
-    },
-    "086c72102e15d43b": {
-      "title": "Data Scientist",
-      "company": "Maxgen Technologies Private Limited",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T11:40:24.664Z"
-    },
-    "b41f33b729e04e0d": {
-      "title": "Data Collection & Annotation",
-      "company": "ConsultBae",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T11:40:24.664Z"
-    },
-    "7c1b215252de32ff": {
-      "title": "AI Agent Development",
-      "company": "Ask First",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T11:40:24.664Z"
-    },
-    "77dcb83fe76823d5": {
-      "title": "Artificial Intelligence (AI)",
-      "company": "Thai Research Info Tech",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T11:40:24.664Z"
-    },
-    "94adb8d734da5330": {
-      "title": "Machine Learning",
-      "company": "Maxgen Technologies Private Limited",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T11:40:24.664Z"
-    },
-    "954b00577bb6c883": {
-      "title": "Generative AI",
-      "company": "Maxgen Technologies Private Limited",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T11:40:24.664Z"
-    },
-    "cd884973a2a49ea0": {
-      "title": "Python Developer",
-      "company": "Maxgen Technologies Private Limited",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T11:40:24.664Z"
-    },
-    "ff2c2dcbbe17a788": {
-      "title": "Data Science",
-      "company": "Maxgen Technologies Private Limited",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T11:40:24.664Z"
-    },
-    "374735b004f4e85d": {
-      "title": "Full Stack Development",
-      "company": "Algo Architech",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T16:10:20.619Z"
-    },
-    "e1df022b3e305f6a": {
-      "title": "Software Development Engineering (Web)",
-      "company": "PayAssured",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T16:10:20.619Z"
-    },
-    "f68c3cc21af7fd4c": {
-      "title": "Full Stack Development",
-      "company": "Limelight",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T16:10:20.619Z"
-    },
-    "638e38eadd631fe3": {
-      "title": "Software Development",
-      "company": "StoryMirror Infotech Private Limited",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T16:10:20.619Z"
-    },
-    "6e4fffa6fea330d6": {
-      "title": "Machine Learning",
-      "company": "Shasan Innovation Private Limited (Shasan Ai )",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T16:10:20.619Z"
-    },
-    "17b2f2f18f939043": {
-      "title": "International Business & AI Driven Sales",
-      "company": "Abhishek Agrawal",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T16:10:20.619Z"
-    },
-    "24b4907396d38787": {
-      "title": "Generative AI Content Creator (Intern)",
-      "company": "Greater Than Educational Technologies",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T16:10:20.619Z"
-    },
-    "95aba564739b7e5d": {
-      "title": "N8n Automation Engineer",
-      "company": "Techdome Solutions Private Limited",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T16:10:20.619Z"
-    },
-    "3025c1d8a1efec9f": {
-      "title": "Remote software engineering internship 2025 India, Hyderabad",
-      "company": "ram6009189",
-      "source": "Google Jobs",
-      "seenAt": "2026-05-29T16:10:20.619Z"
-    },
-    "f9d511d997026034": {
-      "title": "Infosys Internship 2025 | Software Developer Intern | Multiple Internships",
-      "company": "Infosys",
-      "source": "Google Jobs",
-      "seenAt": "2026-05-29T16:10:20.619Z"
-    },
-    "297e7715b2aa6b02": {
-      "title": "Salesforce Internship Drive for 2026 Batch | College Students Internship in India Open Now",
-      "company": "Salesforce",
-      "source": "Google Jobs",
-      "seenAt": "2026-05-29T16:10:20.619Z"
-    },
-    "55150a798d0197fb": {
-      "title": "Software Developer-Fresher",
-      "company": "Cogniview",
-      "source": "Google Jobs",
-      "seenAt": "2026-05-29T16:10:20.619Z"
-    },
-    "f33f013749d46d93": {
-      "title": "Software Engineer(Fresher)",
-      "company": "Silent Infotech",
-      "source": "Google Jobs",
-      "seenAt": "2026-05-29T16:10:20.619Z"
-    },
-    "9ae69424347a64a8": {
-      "title": "Internship For Software Engineers - Freshers",
-      "company": "Ladybird Web Solution Pvt Ltd",
-      "source": "Google Jobs",
-      "seenAt": "2026-05-29T16:10:20.619Z"
-    },
-    "03fc5c8af514c85c": {
-      "title": "Zeotap Jobs for fresher : Apply Now for Software Engineer - Intern Roles in India",
-      "company": "Zeotap",
-      "source": "Google Jobs",
-      "seenAt": "2026-05-29T16:10:20.619Z"
-    },
-    "5f4bb4b1c9d82e5e": {
-      "title": "IQVIA Careers Off Campus Drive 2022 Hiring Freshers For Software Engineer Intern | Bachelor's Degree | Bangalore",
-      "company": "IQVIA",
-      "source": "Google Jobs",
-      "seenAt": "2026-05-29T16:10:20.619Z"
-    },
-    "b45d88ace99d9668": {
-      "title": "Artificial Intelligence (AI) Internship in Bangalore, Gurgaon, Mumbai, Noida (Hybrid)",
-      "company": "BUSINESS x DATA",
-      "source": "Google Jobs",
-      "seenAt": "2026-05-29T16:10:20.619Z"
-    },
-    "5b7f934a3e1c8e8e": {
-      "title": "Internship for AI - ML(Artificial Intelligence & Machine Learning) Intern",
-      "company": "INDSAC SOFTECH",
-      "source": "Google Jobs",
-      "seenAt": "2026-05-29T16:10:20.619Z"
-    },
-    "4fffa9913e2b5ece": {
-      "title": "AI/ ML Engineer Intern",
-      "company": "Bootcoding Pvt. LTD.",
-      "source": "Google Jobs",
-      "seenAt": "2026-05-29T16:10:20.619Z"
-    },
-    "f9d31334a3ce48fc": {
-      "title": "AI, ML,DL Intern / Data Science Intern",
-      "company": "WAHY LAB SOLUTIONS",
-      "source": "Google Jobs",
-      "seenAt": "2026-05-29T16:10:20.619Z"
-    },
-    "d9de810a711579ba": {
-      "title": "AI/ML Devloper Internship in Ahmedabad",
-      "company": "PadosiAgent ServTech Pvt Ltd",
-      "source": "Google Jobs",
-      "seenAt": "2026-05-29T16:10:20.619Z"
-    },
-    "7549aa28247def4a": {
-      "title": "Machine Learning Intern",
-      "company": "Soul AI",
-      "source": "Google Jobs",
-      "seenAt": "2026-05-29T16:10:20.619Z"
-    },
-    "3ec41bac764d462c": {
-      "title": "Summer Internship  AI/ML, Full Stack & Data Analytics (Hyderabad)",
-      "company": "MG Fintech Software Solutions",
-      "source": "Google Jobs",
-      "seenAt": "2026-05-29T16:10:20.619Z"
-    },
-    "28014e549a7883dd": {
-      "title": "Deep Learning Internship (6 Months)",
-      "company": "CodersArts",
-      "source": "Google Jobs",
-      "seenAt": "2026-05-29T16:10:20.619Z"
-    },
-    "b7e89b40df40fa53": {
-      "title": "QA Automation Engineer",
-      "company": "QANinjas",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T16:10:20.620Z"
-    },
-    "d297208ed5b37146": {
-      "title": "Junior Software Developer",
-      "company": "Treadstone Labs",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T16:10:20.620Z"
-    },
-    "7659120f14a3e14d": {
-      "title": "Senior Data Engineer",
-      "company": "Hire Right Search Partners",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T16:10:20.620Z"
-    },
-    "3b9c6d8b735eb8fe": {
-      "title": "Firmware Engineer",
-      "company": "ANVAYA",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T16:10:20.620Z"
-    },
-    "9783461fc2ce275b": {
-      "title": "Java Developer",
-      "company": "DeepThought CultureTech Ventures Private Limited",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T16:10:20.620Z"
-    },
-    "ffd883b799957623": {
-      "title": ".NET Full Stack Developer (Desktop Applications)",
-      "company": "Taxmann",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T16:10:20.620Z"
-    },
-    "f0dc1a00ec715933": {
-      "title": "Webinar And AI Software Engineer",
-      "company": "Streamonweb",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T16:10:20.620Z"
-    },
-    "1d403c357c7d9c97": {
-      "title": "Backend Engineer",
-      "company": "Proof-of-Skill",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T16:10:20.620Z"
-    },
-    "21b49e6d40a60c69": {
-      "title": "Software Developer",
-      "company": "LiveIntuitions Technologies",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T16:10:20.620Z"
-    },
-    "75dc3f549878482d": {
-      "title": "Full Stack Developer",
-      "company": "Nuvena Systems Private Limited",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T16:10:20.620Z"
-    },
-    "b837406360964a84": {
-      "title": "Junior Software Developer",
-      "company": "Harshad Enterprises",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T16:10:20.620Z"
-    },
-    "bd5b5d61aa39aa06": {
-      "title": "IT Software Engineer Jobs Opening in A Client of Freshersworld at NoidaLess More\n                                    Less",
-      "company": "A Client of Freshersworld",
-      "source": "Freshersworld",
-      "seenAt": "2026-05-29T16:10:20.620Z"
-    },
-    "86040884e0f50db4": {
-      "title": "IT Software Engineer Jobs Opening in A Client of Freshersworld at GurgaonLess More\n                                    Less",
-      "company": "A Client of Freshersworld",
-      "source": "Freshersworld",
-      "seenAt": "2026-05-29T16:10:20.620Z"
-    },
-    "dedf05eb7b18d36e": {
-      "title": "IT Software Engineer Jobs Opening in A Client of Freshersworld at ThiruvananthapuramLess More\n                                    Less",
-      "company": "A Client of Freshersworld",
-      "source": "Freshersworld",
-      "seenAt": "2026-05-29T16:10:20.620Z"
-    },
-    "cd2fe586794e030f": {
-      "title": "IT Software Engineer Jobs Opening in A Client of Freshersworld at IndoreLess More\n                                    Less",
-      "company": "A Client of Freshersworld",
-      "source": "Freshersworld",
-      "seenAt": "2026-05-29T16:10:20.620Z"
-    },
-    "5d31e431e27ae733": {
-      "title": "IT Software Engineer Jobs Opening in A Client of Freshersworld at PuneLess More\n                                    Less",
-      "company": "A Client of Freshersworld",
-      "source": "Freshersworld",
-      "seenAt": "2026-05-29T16:10:20.620Z"
-    },
-    "2d7ce7bfdccd9bc9": {
-      "title": "IT Software Engineer Jobs Opening in A Client of Freshersworld at MumbaiLess More\n                                    Less",
-      "company": "A Client of Freshersworld",
-      "source": "Freshersworld",
-      "seenAt": "2026-05-29T16:10:20.620Z"
-    },
-    "6f48cb6583866ff6": {
-      "title": "Software Engineer/Programmer Jobs Opening in For a Client of TeamLease Digital at BengaluruLess More\n                                    Less",
-      "company": "Company on Freshersworld",
-      "source": "Freshersworld",
-      "seenAt": "2026-05-29T16:10:20.620Z"
-    },
-    "4188d085890c54ed": {
-      "title": "Engineering Lead Analyst Jobs Opening in A Client of Freshersworld at AhmedabadLess More\n                                    Less",
-      "company": "A Client of Freshersworld",
-      "source": "Freshersworld",
-      "seenAt": "2026-05-29T16:10:20.620Z"
-    },
-    "d51452da014f4b38": {
-      "title": "Hiring Freshers | Java Full Stack Developers | Bengaluru | 0–1 Years.",
-      "company": "Revoltution",
-      "source": "Google Jobs",
-      "seenAt": "2026-05-29T16:10:20.620Z"
-    },
-    "e16213e2e74c0202": {
-      "title": "Software Test Engineer – Full-Time (Freshers, 0–1 Years Experience)",
-      "company": "lorvenlax tech labs",
-      "source": "Google Jobs",
-      "seenAt": "2026-05-29T16:10:20.620Z"
-    },
-    "f5a90576df2fa407": {
-      "title": "Flutter Developer (Fresher / 0–1 Year) – Hybrid | Gurgaon",
-      "company": "Tryzent Technologies",
-      "source": "Google Jobs",
-      "seenAt": "2026-05-29T16:10:20.620Z"
-    },
-    "d4f0bc24a0824c9a": {
-      "title": "Flutter Developer (0–1 Yr Exp | Freshers with Projects Welcome)",
-      "company": "Digma Marketing",
-      "source": "Google Jobs",
-      "seenAt": "2026-05-29T16:10:20.620Z"
-    },
-    "61b36e5479f39c1c": {
-      "title": "FRESHER WEB DESIGN JAVA, REACT, PHP DEVELOPER, SOFTWARE DEVELOPER URGENT",
-      "company": "Guidance Placement Hiring For urgent hiring php/java/react/angular/web design/laravel",
-      "source": "Google Jobs",
-      "seenAt": "2026-05-29T16:10:20.620Z"
-    },
-    "3cf06e6fc49ea7af": {
-      "title": "Software Developer Freshers Python and AI",
-      "company": "BG Enterprises",
-      "source": "Google Jobs",
-      "seenAt": "2026-05-29T16:10:20.620Z"
-    },
-    "1ce22c19978239b9": {
-      "title": "Fresher hiring for Software Developer",
-      "company": "Smart Career",
-      "source": "Google Jobs",
-      "seenAt": "2026-05-29T16:10:20.620Z"
-    },
-    "611f58e6ecdc98b7": {
-      "title": "Software Development",
-      "company": "VIZON",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T16:23:13.958Z"
-    },
-    "955a4ffe6b80a314": {
-      "title": "Full Stack Development",
-      "company": "She Can Foundation",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T16:23:13.958Z"
-    },
-    "1c49bb5ca7dcbf05": {
-      "title": "Full Stack Development",
-      "company": "Basti Ki Pathshala Foundation",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T16:23:13.959Z"
-    },
-    "fcbb8181d4cd486c": {
-      "title": "Full Stack Development",
-      "company": "3W Business Private Limited",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T16:23:13.959Z"
-    },
-    "7abb8a7bc3be2026": {
-      "title": "AI Engineer",
-      "company": "Quick Dry Cleaning",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T16:23:13.959Z"
-    },
-    "811c6ae5291c1faf": {
-      "title": "Full Stack Development",
-      "company": "Site Guru",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T16:23:13.959Z"
-    },
-    "b02b6f4acf38969c": {
-      "title": "Full-Stack Product Engineering",
-      "company": "Neural City",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T16:23:13.959Z"
-    },
-    "03b4e63872ac6af0": {
-      "title": "AI Engineer (RAG/LLM)",
-      "company": "LC Corporate",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T16:23:13.959Z"
-    },
-    "aa3a6469e4c9a9f7": {
-      "title": "Machine Learning",
-      "company": "Qubixo",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T16:23:13.959Z"
-    },
-    "c1affcdf585d95fc": {
-      "title": "Machine Learning",
-      "company": "TwiLearn EduTech Private Limited",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T16:23:13.959Z"
-    },
-    "29d9a59712bda95e": {
-      "title": "Machine Learning",
-      "company": "Symonis",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T16:23:13.959Z"
-    },
-    "9dd8dbff2f2a5fae": {
-      "title": "Machine Learning",
-      "company": "CareerNest",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T16:23:13.959Z"
-    },
-    "090150236a0ee993": {
-      "title": "Machine Learning (Modeling and Evaluation)",
-      "company": "Primetrade.ai",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T16:23:13.959Z"
-    },
-    "033bc33b98b4e443": {
-      "title": "Full Stack Developer",
-      "company": "QuickHyre",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T16:23:13.959Z"
-    },
-    "0d2e3b0f794d5679": {
-      "title": "Lead Full Stack Engineer",
-      "company": "Dimensional Thinking, LLC",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T16:23:13.959Z"
-    },
-    "b8c41c82010988ba": {
-      "title": "Java Full Stack Developer (Spring Boot + React)",
-      "company": "TrainingMug",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T16:23:13.959Z"
-    },
-    "32dfb5f2e6186565": {
-      "title": "Associate Backend Developer (Django/Python)",
-      "company": "TrainingMug",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T16:23:13.959Z"
-    },
-    "ba56de8e77e56432": {
-      "title": "NODE.JS Backend Developer",
-      "company": "TrainingMug",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T16:23:13.959Z"
-    },
-    "866bb8728e4a562d": {
-      "title": "Full Stack Developer (MERN)",
-      "company": "TrainingMug",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T16:23:13.959Z"
-    },
-    "ba7be862d685fef3": {
-      "title": "Associate Full Stack Developer (MongoDB, React, Node)",
-      "company": "TrainingMug",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T16:23:13.959Z"
-    },
-    "5a953e38133c6ed5": {
-      "title": "Associate Full Stack Engineer (Java)",
-      "company": "TrainingMug",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T16:23:13.959Z"
-    },
-    "2a782a9934476cb8": {
-      "title": "Python Backend Engineer (Django)",
-      "company": "TrainingMug",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T16:23:13.959Z"
-    },
-    "594269e410a4a9cf": {
-      "title": "Software Developer",
-      "company": "OBLYTECH INDIA PRIVATE LIMITED",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T16:23:13.959Z"
-    },
-    "5cde7acf7b6e0271": {
-      "title": "Software Engineer Tutor",
-      "company": "Tutor Probe",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T16:23:13.959Z"
-    },
-    "6c24522807178f1c": {
-      "title": "Web Developer",
-      "company": "Genesis",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T16:23:13.959Z"
-    },
-    "0c6555c99c8d7cf8": {
-      "title": "Software Developer",
-      "company": "Credex",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T16:23:13.959Z"
-    },
-    "22f0466de00b3f40": {
-      "title": "Full Stack Developer",
-      "company": "BeyondChats",
-      "source": "Internshala",
-      "seenAt": "2026-05-29T16:23:13.959Z"
-    },
-    "3764be65b01d6b3b": {
-      "title": "Financial Data Analyst",
-      "company": "Crossing Hurdles",
+    "fe06972ef77da3bc": {
+      "title": "Principal Data Engineer",
+      "company": "Vomela",
       "source": "RemoteOK",
-      "seenAt": "2026-05-29T16:23:13.959Z"
+      "seenAt": "2026-09-13T09:26:45.774Z"
     },
-    "1f6e65a03f609984": {
-      "title": "Senior DevOps Engineer",
-      "company": "Spectrum It Recruitment",
+    "b596a2a194366123": {
+      "title": "Senior Data Engineer",
+      "company": "Lemon.io",
+      "source": "RemoteOK",
+      "seenAt": "2026-09-13T09:26:45.774Z"
+    },
+    "37dd84ef919abab9": {
+      "title": "Principal Business Intelligence Analyst",
+      "company": "ZoomInfo Technologies LLC",
       "source": "WeWorkRemotely",
-      "seenAt": "2026-05-29T16:23:13.959Z"
-    },
-    "de3b1e1c6ea96b2b": {
-      "title": "Senior DevOps Engineer",
-      "company": "Cooper Lomaz Recruitment",
-      "source": "WeWorkRemotely",
-      "seenAt": "2026-05-29T16:23:13.959Z"
-    },
-    "331884e7ffb718b1": {
-      "title": "Full Stack Developer",
-      "company": "Mactores",
-      "source": "WeWorkRemotely",
-      "seenAt": "2026-05-29T16:23:13.959Z"
-    },
-    "ab89d15c2083da04": {
-      "title": "Full Stack Developer",
-      "company": "Intec Select Limited",
-      "source": "WeWorkRemotely",
-      "seenAt": "2026-05-29T16:23:13.959Z"
-    },
-    "ec3d2f18611ef0c8": {
-      "title": "DevOps Engineer",
-      "company": "Interop Labs",
-      "source": "WeWorkRemotely",
-      "seenAt": "2026-05-29T16:23:13.959Z"
-    },
-    "37d516070e69e453": {
-      "title": "DevOps Engineer",
-      "company": "Clo Virtual Fashion",
-      "source": "WeWorkRemotely",
-      "seenAt": "2026-05-29T16:23:13.959Z"
-    },
-    "d4c27d0ec64e3800": {
-      "title": "Full Stack Developer",
-      "company": "Hrtx",
-      "source": "WeWorkRemotely",
-      "seenAt": "2026-05-29T16:23:13.959Z"
-    },
-    "fae776a08fc5644e": {
-      "title": "DevOps Engineer",
-      "company": "Alice",
-      "source": "WeWorkRemotely",
-      "seenAt": "2026-05-29T16:23:13.959Z"
-    },
-    "523f443e56e7d949": {
-      "title": "Platform Engineer",
-      "company": "Catamaran Research",
-      "source": "WeWorkRemotely",
-      "seenAt": "2026-05-29T16:23:13.959Z"
-    },
-    "0faa85fe1990f0a0": {
-      "title": "DevOps Engineer (Remote)",
-      "company": "Rhino Partners",
-      "source": "WeWorkRemotely",
-      "seenAt": "2026-05-29T16:23:13.959Z"
-    },
-    "11fefa033ca192b0": {
-      "title": "Senior Devops Engineer",
-      "company": "Woliba",
-      "source": "WeWorkRemotely",
-      "seenAt": "2026-05-29T16:23:13.959Z"
-    },
-    "aa83c99738878e49": {
-      "title": "Staff Software Engineer, Product",
-      "company": "Atria Physician Practice New York Pc",
-      "source": "WeWorkRemotely",
-      "seenAt": "2026-05-29T16:23:13.959Z"
-    },
-    "8b3182234e949c8d": {
-      "title": "OpenStack Cloud Engineer (DevOps)",
-      "company": "Vexxhost",
-      "source": "WeWorkRemotely",
-      "seenAt": "2026-05-29T16:23:13.959Z"
-    },
-    "101b841738a6fb1a": {
-      "title": "Web Developer",
-      "company": "Community Sports Partners",
-      "source": "WeWorkRemotely",
-      "seenAt": "2026-05-29T16:23:13.959Z"
-    },
-    "2068edac11a1a414": {
-      "title": "Staff Software Engineer (Magic Containers)",
-      "company": "bunny.net",
-      "source": "WeWorkRemotely",
-      "seenAt": "2026-05-29T16:23:13.959Z"
-    },
-    "e2b5bc6e43ab8517": {
-      "title": "Staff Software Engineer - Data Infrastructure",
-      "company": "Praia Health Inc.",
-      "source": "WeWorkRemotely",
-      "seenAt": "2026-05-29T16:23:13.959Z"
-    },
-    "7513501a0b56c319": {
-      "title": "Backend Engineer, 80-100% (f/m/x)",
-      "company": "comparis.ch",
-      "source": "WeWorkRemotely",
-      "seenAt": "2026-05-29T16:23:13.959Z"
-    },
-    "2b7f7e2a6d6e1541": {
-      "title": "Full Stack AI Engineer",
-      "company": "Reveleer",
-      "source": "WeWorkRemotely",
-      "seenAt": "2026-05-29T16:23:13.959Z"
-    },
-    "0867767689cacc87": {
-      "title": "Senior Software Engineer - Backend/Python - USA Only (100% Remote)",
-      "company": "Close",
-      "source": "WeWorkRemotely",
-      "seenAt": "2026-05-29T16:23:13.959Z"
-    },
-    "2e68392379d1dcdf": {
-      "title": "Senior Software Engineer, Web",
-      "company": "Speechify Inc",
-      "source": "WeWorkRemotely",
-      "seenAt": "2026-05-29T16:23:13.960Z"
-    },
-    "6da541e07741d560": {
-      "title": "Staff Software Engineer - AI Website Builder - US (Remote)",
-      "company": "Luxury Presence",
-      "source": "WeWorkRemotely",
-      "seenAt": "2026-05-29T16:23:13.960Z"
-    },
-    "a0ef7b8021809dc0": {
-      "title": "Senior Frontend Developer",
-      "company": "Sanctuary Computer",
-      "source": "WeWorkRemotely",
-      "seenAt": "2026-05-29T16:23:13.960Z"
-    },
-    "4d081aa0ccc84598": {
-      "title": "Software Engineer, iOS Core Product",
-      "company": "Speechify Inc",
-      "source": "WeWorkRemotely",
-      "seenAt": "2026-05-29T16:23:13.960Z"
-    },
-    "f45a07824f69cd09": {
-      "title": "Frontend Engineer",
-      "company": "Mobena",
-      "source": "WeWorkRemotely",
-      "seenAt": "2026-05-29T16:23:13.960Z"
-    },
-    "dbe8ed84fab2826f": {
-      "title": "Sr. DevOps Engineer",
-      "company": "Apple",
-      "source": "YCombinator",
-      "seenAt": "2026-05-29T16:23:13.960Z"
-    },
-    "5da667db5b4b3b44": {
-      "title": "Hiring Java Developer (Full-Time)",
-      "company": "Furtim Modus",
-      "source": "YCombinator",
-      "seenAt": "2026-05-29T16:23:13.960Z"
-    },
-    "1a98573eec002d58": {
-      "title": "Senior Mobile Engineer (React Native)",
-      "company": "Forage",
-      "source": "YCombinator",
-      "seenAt": "2026-05-29T16:23:13.960Z"
-    },
-    "e4909c3862a2b160": {
-      "title": "AI Engineer",
-      "company": "MemberPress",
-      "source": "YCombinator",
-      "seenAt": "2026-05-29T16:23:13.960Z"
-    },
-    "8b4ba95c1a2c1fff": {
-      "title": "Senior Software Engineer",
-      "company": "Oaktree Capital",
-      "source": "YCombinator",
-      "seenAt": "2026-05-29T16:23:13.960Z"
-    },
-    "b186628a342b159e": {
-      "title": "AI / Systems Engineer",
-      "company": "Emergences Labs (emergences.ai)",
-      "source": "YCombinator",
-      "seenAt": "2026-05-29T16:23:13.960Z"
-    },
-    "1f1175a5ac5bf0dc": {
-      "title": "Software Engineer 1",
-      "company": "Amazon",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.960Z"
-    },
-    "621324b274d884ce": {
-      "title": "Software Engineer 1 - Metrics for Release Implementation",
-      "company": "Torc Robotics",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.960Z"
-    },
-    "17cfcd1387575bf5": {
-      "title": "Software Engineer 1",
-      "company": "Sony Interactive Entertainment",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.960Z"
-    },
-    "0551ba777be884fe": {
-      "title": "Software Engineer New Grad",
-      "company": "NVIDIA",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.960Z"
-    },
-    "43884a7cb4f93973": {
-      "title": "Software Engineer 1",
-      "company": "Uber",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.960Z"
-    },
-    "e07e93a117a9dbda": {
-      "title": "Associate Software Engineer, Search Infrastructure - Moveworks",
-      "company": "ServiceNow",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.960Z"
-    },
-    "0f7a61436c986632": {
-      "title": "iOS Software Engineer – New Grad",
-      "company": "Airbnb",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.960Z"
-    },
-    "26d9aa8d4acff7f5": {
-      "title": "Software Engineer – New Grad - AI",
-      "company": "Notion",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.960Z"
-    },
-    "c322dfd27e9e114d": {
-      "title": "Software Engineer – New Grad",
-      "company": "Notion",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.960Z"
-    },
-    "943116f9f6eea2ca": {
-      "title": "Software Engineer - New Grad",
-      "company": "Realm",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.960Z"
-    },
-    "a86ccf4f0fff4288": {
-      "title": "Software Engineer 1 - Full-Stack",
-      "company": "Affirm",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.960Z"
-    },
-    "da45631d82baf6a2": {
-      "title": "Junior Software Engineer",
-      "company": "Remodel Health",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.960Z"
-    },
-    "f26d2481089eb4c4": {
-      "title": "New Grad Software Engineer - Backend Rust",
-      "company": "N1",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.960Z"
-    },
-    "9aeb4d494a58f2ae": {
-      "title": "Software Engineer – Early Career - AI/ML - PhD",
-      "company": "Google",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.960Z"
-    },
-    "3946ca0b5bbf4aee": {
-      "title": "Software Engineer Early Career - Infrastructure",
-      "company": "Google",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.960Z"
-    },
-    "d6f7faa3c11690c8": {
-      "title": "Software Engineer – University Graduate - US",
-      "company": "Citadel Securities",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.960Z"
-    },
-    "505e3d7465855533": {
-      "title": "Software Engineer 1",
-      "company": "Mintel",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.960Z"
-    },
-    "0baee645b0d8a5fd": {
-      "title": "Software Engineer 1 - Commerce Engineering",
-      "company": "Amazon",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.960Z"
-    },
-    "5aa5932b529303ae": {
-      "title": "Junior AI/ML Software Engineer",
-      "company": "Guidehouse",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.960Z"
-    },
-    "9fd2f2cf1f5c70ec": {
-      "title": "Backend Developer I",
-      "company": "Ryder",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.960Z"
-    },
-    "3be5477e07901e46": {
-      "title": "Software Engineer 1 - I",
-      "company": "Uber",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.960Z"
-    },
-    "b2b763b848b76590": {
-      "title": "Software Engineer New Grad",
-      "company": "Airbnb",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.960Z"
-    },
-    "36c61cff08bbb990": {
-      "title": "Software Engineer – Entry Level - Engineering Infrastructure",
-      "company": "Snowflake",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.960Z"
-    },
-    "71027bafaa5b27d4": {
-      "title": "Software Engineer 1 - Dev Accelerator",
-      "company": "Abnormal Security",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.960Z"
-    },
-    "057321f110f36b11": {
-      "title": "Software Engineer 1",
-      "company": "Alarm.com",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.960Z"
-    },
-    "2dd32c1694bec1a5": {
-      "title": "University Graduate - Software Development Engineer",
-      "company": "Adobe",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.960Z"
-    },
-    "e2ea26f0bd95a400": {
-      "title": "Full Stack Engineer 1",
-      "company": "Atos",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.960Z"
-    },
-    "7a320e6d2d35c8cb": {
-      "title": "Entry Level - Full Stack Software Engineer - LLM application Development",
-      "company": "Allstate Insurance Company",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.960Z"
-    },
-    "f4d0652a64c6af18": {
-      "title": "Associate Software Development Engineer (Google Workspace Administrator)",
-      "company": "CVS Health",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.960Z"
-    },
-    "036c116c8ae77175": {
-      "title": "Software Engineer 1 - Backend",
-      "company": "Affirm",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.960Z"
-    },
-    "d87d0fee164f2069": {
-      "title": "Software Engineer 1",
-      "company": "Murj",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.960Z"
-    },
-    "f32647a630ce7da2": {
-      "title": "Graduate Software Engineer 1 - Mobile - iOS",
-      "company": "Uber",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.960Z"
-    },
-    "cb5a513766935464": {
-      "title": "Graduate Software Engineer 1",
-      "company": "Uber",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.961Z"
-    },
-    "00d2937248216dcc": {
-      "title": "Software Engineer – New College Graduate - AI Inference Systems",
-      "company": "NVIDIA",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.961Z"
-    },
-    "5dea4cf6119eabaa": {
-      "title": "Software Engineer 1",
-      "company": "Meridian Link",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.961Z"
-    },
-    "9ce6d74a7f7a5c6c": {
-      "title": "Software Engineering AMTS College Grad",
-      "company": "Salesforce",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.961Z"
-    },
-    "82f94a13930fcc8d": {
-      "title": "Software Engineer 1",
-      "company": "Ultra Intelligence & Communications Mission Solutions",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.961Z"
-    },
-    "3fdd286a7e0cbb38": {
-      "title": "Software Engineer 1",
-      "company": "Qualifacts",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.961Z"
-    },
-    "0998eb4c44cadadf": {
-      "title": "Software Engineer 1 - Secure Platform Operations",
-      "company": "Smartsheet",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.961Z"
-    },
-    "25a3382729566f57": {
-      "title": "Associate Software Engineer",
-      "company": "First Advantage",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.961Z"
-    },
-    "0211d2b5c4774023": {
-      "title": "Associate Software Development Engineer (Enterprise Applications)",
-      "company": "CVS Health",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.961Z"
-    },
-    "e42421160b793ea9": {
-      "title": "Software Engineer 1 - Officepy",
-      "company": "Microsoft",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.961Z"
-    },
-    "93897e1a8d576657": {
-      "title": "Junior Software Engineer- Fully Cleared",
-      "company": "Intelliforce",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.961Z"
-    },
-    "105829a75cb2009d": {
-      "title": "Junior Software Developer - UI/UX - Software Development",
-      "company": "Harris Computer",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.961Z"
-    },
-    "1aebfa334fc88dfa": {
-      "title": "Associate Software Engineer, Accelerate Program",
-      "company": "H&R Block",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.961Z"
-    },
-    "ace451334764f1cd": {
-      "title": "Software Engineer I - C# .NET",
-      "company": "Continuous",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.961Z"
-    },
-    "60b482acf24ead31": {
-      "title": "Software Engineer – New College Grad 2026 - Robotics - Isaac Lab",
-      "company": "NVIDIA",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.961Z"
-    },
-    "c0c4e4fbdcdb3fcf": {
-      "title": "Software Development Engineer - Applications",
-      "company": "Apple",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.961Z"
-    },
-    "6d0dc22ff5df80dc": {
-      "title": "Software Engineer 1",
-      "company": "NMI",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.961Z"
-    },
-    "16573b95e5b65868": {
-      "title": "Software Engineer 1",
-      "company": "Microsoft",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.961Z"
-    },
-    "6d6803c000bdfe89": {
-      "title": "Software Engineer 1",
-      "company": "Renaissance",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.961Z"
-    },
-    "4708a220bbd01530": {
-      "title": "Software Engineer – New College Grad 2026 - Distributed Systems",
-      "company": "NVIDIA",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.961Z"
-    },
-    "3add0bde88f9a22f": {
-      "title": "Software Engineering AMTS/MTS – College Grad",
-      "company": "Salesforce",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.961Z"
-    },
-    "5177d4399c1b61d7": {
-      "title": "Software Engineer 1",
-      "company": "Nextech Systems",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.961Z"
-    },
-    "0eab7459c46a0192": {
-      "title": "Software Engineer 1 - Backend - Employee Lifecycle Management",
-      "company": "Toast",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.961Z"
-    },
-    "866c9c31c4aa6c2f": {
-      "title": "Software Engineer 1",
-      "company": "OpenSesame",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.961Z"
-    },
-    "dadada736243b0c5": {
-      "title": "Software Engineer – PhD New College Grad 2026 - Agentic AI for Science",
-      "company": "NVIDIA",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.961Z"
-    },
-    "7b3d680590a7553a": {
-      "title": "Software Engineer 1",
-      "company": "Mercury Insurance",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.961Z"
-    },
-    "5d30f1d0dae9fda4": {
-      "title": "Software Engineer 1 - Ruby on Rails",
-      "company": "G2",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.961Z"
-    },
-    "95fedd47be269121": {
-      "title": "Software Engineer 1",
-      "company": "Nelnet",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.961Z"
-    },
-    "6fc1e1063c0149f0": {
-      "title": "Software Engineer 1 - Product Backend",
-      "company": "Slack",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.961Z"
-    },
-    "568f13511e6c9bc7": {
-      "title": "Software Engineer 1 - Product Backend",
-      "company": "Salesforce",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.961Z"
-    },
-    "f29a919928218c5b": {
-      "title": "Software Engineer 1 - New Grad",
-      "company": "College Board",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.961Z"
-    },
-    "3936086c2d428b6c": {
-      "title": "Software Engineer 1",
-      "company": "FiscalNote",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.961Z"
-    },
-    "467faf4eaebe8d7a": {
-      "title": "Software Engineer – New Grad",
-      "company": "Stripe",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.961Z"
-    },
-    "54bb60b2baf19ac0": {
-      "title": "Software Engineer – New College Grad 2026 - DL Libraries Infrastructure",
-      "company": "NVIDIA",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.961Z"
-    },
-    "332fff8e78392b26": {
-      "title": "Software Development Engineer 1",
-      "company": "LabCorp",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.961Z"
-    },
-    "e5c309188c7c4296": {
-      "title": "Software Engineer 1",
-      "company": "Ophelia",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.961Z"
-    },
-    "d08025614f014020": {
-      "title": "Junior Software Developer",
-      "company": "Higher Logic",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.961Z"
-    },
-    "ee9cfc22fea47d73": {
-      "title": "Software Engineer 1",
-      "company": "Blackboard",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.961Z"
-    },
-    "83b26bd349b763e9": {
-      "title": "New Grad C++ Software Developer",
-      "company": "Tower Research Capital",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.961Z"
-    },
-    "8c9c6d7c1c8d8a37": {
-      "title": "Software Engineer 1 - Python - Remote United States",
-      "company": "Nextech Systems",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.961Z"
-    },
-    "d6c9a095f3706274": {
-      "title": "Software Development Engineer 1 - Frontend",
-      "company": "Subsplash",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.961Z"
-    },
-    "b69bc56a57a9bb32": {
-      "title": "Software Engineer 1 – New Grad - Fullstack - Risk Engineering",
-      "company": "Flex",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.961Z"
-    },
-    "180ee8a88e101865": {
-      "title": "Software Engineer 1 - AI",
-      "company": "Nextech Systems",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.961Z"
-    },
-    "f52d2a59ef0c6c0c": {
-      "title": "Associate Software Engineer – 2026 New Grad",
-      "company": "Underdog Fantasy",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.961Z"
-    },
-    "95e5248429e7b823": {
-      "title": "Associate Software Engineer 1",
-      "company": "BlueCross BlueShield of Tennessee",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.961Z"
-    },
-    "e4b9c4eb6d9f536f": {
-      "title": "Software Engineer 1 - Builder",
-      "company": "Amazon",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.961Z"
-    },
-    "58c011b10c73c2cd": {
-      "title": "Full-Stack Software Engineer – New Grad",
-      "company": "SpruceID",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.961Z"
-    },
-    "54b3a182bc7f2688": {
-      "title": "2026 University Graduate - Software Development Engineer",
-      "company": "Adobe",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.961Z"
-    },
-    "d5276ebf03d98734": {
-      "title": "Graduate 2026 Software Engineer 1 - US",
-      "company": "Uber",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.961Z"
-    },
-    "36988d64132e9ce2": {
-      "title": "Software Engineering AMTS – College Grad",
-      "company": "Salesforce",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.961Z"
-    },
-    "917c8a9e4846b71d": {
-      "title": "Software Engineer 1",
-      "company": "Pattern Data",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.961Z"
-    },
-    "f50fefcb20b84498": {
-      "title": "Software Engineer 1 - Backend",
-      "company": "Fanatics",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.961Z"
-    },
-    "0b0017c5e0b7e279": {
-      "title": "Associate Full Stack Developer",
-      "company": "MetroStar",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.961Z"
-    },
-    "2fe18a84168ccc8f": {
-      "title": "Junior Software Engineer",
-      "company": "Oklo",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.961Z"
-    },
-    "9be61b42b94ad76a": {
-      "title": "Graduate Software Engineer 1 - Mobile",
-      "company": "Uber",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.961Z"
-    },
-    "cfa81da3347d3690": {
-      "title": "Software Engineer 1 - Ad Demand",
-      "company": "Amazon",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.961Z"
-    },
-    "61d51636a6f2dfd2": {
-      "title": "New Grad Software Engineer - 2026",
-      "company": "Netflix",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.961Z"
-    },
-    "f7d249183f043486": {
-      "title": "Software Engineer – New College Grad 2025 - Tensorrt Specialized Platforms",
-      "company": "NVIDIA",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.961Z"
-    },
-    "9df9612bae7b9c72": {
-      "title": "Software Engineer",
-      "company": "Microsoft",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.961Z"
-    },
-    "eaa7b94661606949": {
-      "title": "Software Engineer – New College Graduate 2026 - Deep Learning Libraries",
-      "company": "NVIDIA",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.961Z"
-    },
-    "fa9cb1f1eb106335": {
-      "title": "DL System Software Engineer – New College Graduate - AI Platform",
-      "company": "NVIDIA",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.961Z"
-    },
-    "22c7bc6f029ebe2c": {
-      "title": "Software Engineer 1 - Backend - New Grad",
-      "company": "Flex",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.961Z"
-    },
-    "f856cfd8f690f245": {
-      "title": "Full-Stack Software Engineer",
-      "company": "Wanderlog",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.961Z"
-    },
-    "a5724d811e8ea01e": {
-      "title": "Entry Level Software Developer",
-      "company": "IBM",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.962Z"
-    },
-    "3676ed56b6a08dbf": {
-      "title": "Software Engineer – IS&T Early Career - Sap",
-      "company": "Apple",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.962Z"
-    },
-    "13687438cf353646": {
-      "title": "Software Engineer – IS&T Early Career",
-      "company": "Apple",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.962Z"
-    },
-    "d91c662bb7b2b1c8": {
-      "title": "Software Engineer 1",
-      "company": "TDS",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.962Z"
-    },
-    "1dd53899eb536a49": {
-      "title": "Junior Software Engineer",
-      "company": "OPENLANE",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.962Z"
-    },
-    "a6a4199bdf8ba4f4": {
-      "title": "Software Engineer, IS&T Early Career",
-      "company": "Apple",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.962Z"
-    },
-    "f5409294f2d7cd66": {
-      "title": "System Software Engineer – New College Grad 2026 - Robotics Simulation",
-      "company": "NVIDIA",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.962Z"
-    },
-    "70e47041d93c339f": {
-      "title": "Software Engineer 1",
-      "company": "Fanatics",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.962Z"
-    },
-    "7bd8303198e1cd71": {
-      "title": "Junior Software Engineer",
-      "company": "CommonLit",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.962Z"
-    },
-    "fd66087466b8307d": {
-      "title": "Software Engineer New Grad - 2026 Start",
-      "company": "Databricks",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.962Z"
-    },
-    "6bb0c30e10e605a4": {
-      "title": "Software Engineer",
-      "company": "ServiceNow",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.962Z"
-    },
-    "22653cc2414eb7fc": {
-      "title": "Frontend Software Engineer",
-      "company": "ServiceNow",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.962Z"
-    },
-    "09433470876a0533": {
-      "title": "Associate Software Engineer",
-      "company": "ServiceNow",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.962Z"
-    },
-    "ae06fd94d230e3e1": {
-      "title": "Software Engineer – New Grad - Production Infrastructure",
-      "company": "Palantir",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.962Z"
-    },
-    "d13ead634f971581": {
-      "title": "Java Software Engineer I - Remote within the USA",
-      "company": "Businessolver",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.962Z"
-    },
-    "1ddde1006e396cae": {
-      "title": "Software Engineer",
-      "company": "Warp",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.962Z"
-    },
-    "a59a6b27220a041d": {
-      "title": "Software Engineer I",
-      "company": "Cummins",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.962Z"
-    },
-    "dad97e5175c7be5f": {
-      "title": "Associate Software Engineer",
-      "company": "Red Hat",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.962Z"
-    },
-    "5679d753776940c8": {
-      "title": "DL Performance Software Engineer – New College Graduate 2025 - LLM Inference",
-      "company": "NVIDIA",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.962Z"
-    },
-    "840b91b0ca23b5a1": {
-      "title": "AI and ML Infra Software Engineer – New College Grad 2025 - GPU Clusters",
-      "company": "NVIDIA",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.962Z"
-    },
-    "c113782125b6fe76": {
-      "title": "Forward Deployed Software Engineer – New Grad - Commercial",
-      "company": "Palantir",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.962Z"
-    },
-    "e33ea8929df8be66": {
-      "title": "Associate Software Development Engineer",
-      "company": "CVS Health",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.962Z"
-    },
-    "6900ceafc0c2fd71": {
-      "title": "Software Engineer I - Ctj - Poly",
-      "company": "Microsoft",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.962Z"
-    },
-    "50c61668f3d9cdb8": {
-      "title": "Software Engineer 1 - Data Platform",
-      "company": "Abnormal Security",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.962Z"
-    },
-    "1199f867c45b1ffd": {
-      "title": "Systems Software Engineer – New Grad 2025 - Geforce NOW Low Latency Streaming Technology",
-      "company": "NVIDIA",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.962Z"
-    },
-    "3cddf2b2dfa59039": {
-      "title": "2025 Associate Software Engineer - Remote",
-      "company": "Northrop Grumman",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.962Z"
-    },
-    "d5da90b498095cfa": {
-      "title": "Security Engineer I - Security Incident Response Team - Sirt",
-      "company": "Amazon",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.962Z"
-    },
-    "e5b02625a27e39dd": {
-      "title": "Associate Software Engineer",
-      "company": "DuCharme, McMillen & Associates",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.962Z"
-    },
-    "206f6370662051c8": {
-      "title": "Undergrad Software Engineer - Oracle Cloud Infrastructure (OCI)",
-      "company": "Oracle",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.962Z"
-    },
-    "5e254654a682a5df": {
-      "title": "Software Development Engineer",
-      "company": "Adobe",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.962Z"
-    },
-    "449d8c2e2a1f2794": {
-      "title": "Software Engineer, Backend-leaning Full Stack or Backend (Runner Team)",
-      "company": "Zapier",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.962Z"
-    },
-    "52fa8e8ebd6f109f": {
-      "title": "Associate Software Engineer",
-      "company": "Evolent",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.962Z"
-    },
-    "dfd897e47f8c55ce": {
-      "title": "Software Engineer I",
-      "company": "Amazon",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.962Z"
-    },
-    "ed81b919cb8db7d5": {
-      "title": "Software Engineer I",
-      "company": "Cority",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.962Z"
-    },
-    "d5c3e7352c0a67f1": {
-      "title": "Junior Software Developer",
-      "company": "CACI",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.962Z"
-    },
-    "dece10fa5f23985f": {
-      "title": "Cloud Platform Engineer I",
-      "company": "Centene",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.962Z"
-    },
-    "123c476f62475929": {
-      "title": "Junior Software Engineer - Software Engineer",
-      "company": "Figma",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.962Z"
-    },
-    "03710686ab20072b": {
-      "title": "Software Developer",
-      "company": "IBM",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.962Z"
-    },
-    "d0dc254bc9a7002f": {
-      "title": "Software Engineer – Early Career Opportunities - Aidp Reliability Engineering - IS&T",
-      "company": "Apple",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.962Z"
-    },
-    "7fbec3a7b8362282": {
-      "title": "Software Engineer I - Full-Stack",
-      "company": "RoadRunner Recycling",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.962Z"
-    },
-    "518696c9f56c83fe": {
-      "title": "Security Engineer 1 - Corporate Services Security",
-      "company": "Amazon",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.962Z"
-    },
-    "c9ead39a2ee98416": {
-      "title": "Junior Frontend Engineer",
-      "company": "Vultr",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.962Z"
-    },
-    "e4730a1c4d69e70a": {
-      "title": "Junior Software Engineer",
-      "company": "Reach Financial",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.962Z"
-    },
-    "993756f075880e84": {
-      "title": "Software Engineer 1 - iOS",
-      "company": "Uber",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.962Z"
-    },
-    "43d763be1ea030ba": {
-      "title": "AI Forward Deployed Engineer – Early Career - Agentforce - Software Engineering",
-      "company": "Salesforce",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.962Z"
-    },
-    "cc34644d466673e3": {
-      "title": "Software Engineer I",
-      "company": "Fanatics",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.962Z"
-    },
-    "fd81ecdbfd6fd0a9": {
-      "title": "Product Management Xcelerator Rotation Program – Entry Level Product - Remote",
-      "company": "Experian",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.962Z"
-    },
-    "f975e676d051857b": {
-      "title": "Data Analyst Entry Level",
-      "company": "Murj",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.962Z"
-    },
-    "cf7d4a8558052acf": {
-      "title": "Machine Learning Applications and Compiler Engineer New Grad",
-      "company": "NVIDIA",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.962Z"
-    },
-    "5c248ecfed4eb423": {
-      "title": "Data Engineer 1 - AWS WW Field Enablement - Analytics and Product Operations",
-      "company": "Amazon",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.962Z"
-    },
-    "1051676043cee0df": {
-      "title": "Deep Learning Architect, LLM Inference",
-      "company": "NVIDIA",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.962Z"
-    },
-    "bcec7f402b3a47a4": {
-      "title": "Data Scientist, Core Data",
-      "company": "Figma",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.962Z"
-    },
-    "bf3a8658f9807938": {
-      "title": "Deep Learning Software Engineer – New College Grad - TensorRT Performance",
-      "company": "NVIDIA",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.962Z"
-    },
-    "c1282dfbba166c9e": {
-      "title": "Data Scientist – New Grad",
-      "company": "SentiLink",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.962Z"
-    },
-    "b903ff4c36323079": {
-      "title": "Applied Machine Learning Engineer – New College Grad 2026 - Circuit Design",
-      "company": "NVIDIA",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.962Z"
-    },
-    "891a05b32ef90f88": {
-      "title": "Software Development Engineer 1",
-      "company": "Centific",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.962Z"
-    },
-    "802fb696a08041ea": {
-      "title": "Associate Data Engineer 1",
-      "company": "BCBST",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.962Z"
-    },
-    "6490e91420e952ee": {
-      "title": "Software Data Engineer 1",
-      "company": "RTX",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.962Z"
-    },
-    "53ff685e06f7922a": {
-      "title": "Junior Data Analyst",
-      "company": "Canvas Worldwide",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.962Z"
-    },
-    "fd008d723fbba14e": {
-      "title": "Deep Learning Software Engineer – New College Grad - Flashinfer",
-      "company": "NVIDIA",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.962Z"
-    },
-    "e5d535ed43fb0ee5": {
-      "title": "Associate Data Engineer",
-      "company": "MetroStar Systems",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.962Z"
-    },
-    "9805e8f30c2d7d7e": {
-      "title": "Data Engineer 1",
-      "company": "EverCommerce",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.962Z"
-    },
-    "96570a2b8e0b6524": {
-      "title": "Data Engineer 1 - IT Pnd Data and Analytics",
-      "company": "Amazon",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.962Z"
-    },
-    "403bf81e533f78ae": {
-      "title": "Data Engineer – New Grad",
-      "company": "Oracle",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.962Z"
-    },
-    "4fe7862c7cfc2d39": {
-      "title": "Data Analyst – Entry Level - Ecommerce & Growth",
-      "company": "Open Farm Pet",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.962Z"
-    },
-    "b852d30810e4060f": {
-      "title": "Junior Data Scientist",
-      "company": "Wpromote",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.962Z"
-    },
-    "2de3f9261542568a": {
-      "title": "Machine Learning Engineer New Grad",
-      "company": "Quora",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.962Z"
-    },
-    "396e8a7d8a84dc53": {
+      "seenAt": "2026-09-13T09:26:45.774Z"
+    },
+    "89845f909ef2025c": {
+      "title": "Data Analyst (English Required)",
+      "company": "Peroptyx",
+      "source": "Naukri",
+      "seenAt": "2026-09-13T09:26:45.774Z"
+    },
+    "df886d3dcbf941c3": {
+      "title": "Data Analyst",
+      "company": "Recruito",
+      "source": "Naukri",
+      "seenAt": "2026-09-13T09:26:45.774Z"
+    },
+    "0277d168d8b90ae9": {
+      "title": "Data Analyst-Tableau",
+      "company": "Leading Client",
+      "source": "Naukri",
+      "seenAt": "2026-09-13T09:26:45.774Z"
+    },
+    "22f26eab5f00582d": {
+      "title": "Data Analyst-10-20USD PER HOUR Remote JOB",
+      "company": "Pro integrate World It Is consulting",
+      "source": "Naukri",
+      "seenAt": "2026-09-13T09:26:45.774Z"
+    },
+    "47043b3c3634b7af": {
+      "title": "Data Analyst- L4",
+      "company": "Target",
+      "source": "Naukri",
+      "seenAt": "2026-09-13T09:26:45.774Z"
+    },
+    "8a5ad36b0d819877": {
+      "title": "Abinitio Developer",
+      "company": "Capgemini",
+      "source": "Naukri",
+      "seenAt": "2026-09-13T10:15:13.663Z"
+    },
+    "5532452477065db3": {
+      "title": "Oracle Data Integrator Developer",
+      "company": "Tata Consultancy Services",
+      "source": "Naukri",
+      "seenAt": "2026-09-13T10:15:13.663Z"
+    },
+    "1a0e805e16782183": {
+      "title": "Power BI Developer",
+      "company": "Infosys",
+      "source": "Naukri",
+      "seenAt": "2026-09-13T10:15:13.663Z"
+    },
+    "0ac3c29502b25c3f": {
+      "title": "Power Bi Developer( SSRS )",
+      "company": "Valuelabs",
+      "source": "Naukri",
+      "seenAt": "2026-09-13T10:15:13.663Z"
+    },
+    "55369a3e41032e50": {
+      "title": "Senior Power Bi Developer",
+      "company": "Tech Mahindra",
+      "source": "Naukri",
+      "seenAt": "2026-09-13T10:15:13.663Z"
+    },
+    "3f1cd7f297b455c8": {
+      "title": "Power Bi Developer || Fashion Retail",
+      "company": "Retail Business",
+      "source": "Naukri",
+      "seenAt": "2026-09-13T10:15:13.663Z"
+    },
+    "21d42dfa80ee3a66": {
+      "title": "Automation Developer (Excel VBA & Power BI)",
+      "company": "Detroit Engineered Products (DEP)",
+      "source": "Naukri",
+      "seenAt": "2026-09-13T10:15:13.664Z"
+    },
+    "e2d1721b349459c8": {
+      "title": "Power BI/Tableau Developer",
+      "company": "Western Digital",
+      "source": "Naukri",
+      "seenAt": "2026-09-13T10:15:13.664Z"
+    },
+    "4694b68dbcb61fb6": {
+      "title": "Opening - Microsoft Fabric Data Engineer / Power BI Developer - Pune",
+      "company": "Tech Mahindra",
+      "source": "Naukri",
+      "seenAt": "2026-09-13T10:15:13.664Z"
+    },
+    "40fba817ff5f91be": {
+      "title": "Data Analyst - Power BI",
+      "company": "Ecotech IT Solutions",
+      "source": "Naukri",
+      "seenAt": "2026-09-13T10:15:13.664Z"
+    },
+    "93f9c448f8a16eb5": {
+      "title": "Data Analyst, Power Bi",
+      "company": "Tristone Strategic Partners",
+      "source": "Naukri",
+      "seenAt": "2026-09-13T10:15:13.664Z"
+    },
+    "d70a9137d628b064": {
+      "title": "Analyst",
+      "company": "eClerx",
+      "source": "Naukri",
+      "seenAt": "2026-09-13T10:15:13.664Z"
+    },
+    "67999b4b1de60b29": {
+      "title": "Opportunity For Data Analyst | SQL, ETL, Python, Power BI | Noida",
+      "company": "Coforge",
+      "source": "Naukri",
+      "seenAt": "2026-09-13T10:15:13.664Z"
+    },
+    "e035b2f324edd323": {
+      "title": "Power Bi Analyst",
+      "company": "Aziro",
+      "source": "Naukri",
+      "seenAt": "2026-09-13T10:15:13.664Z"
+    },
+    "6816e86878db160f": {
+      "title": "Adv Analyst-Bus Cont",
+      "company": "Invesco",
+      "source": "Naukri",
+      "seenAt": "2026-09-13T10:15:13.664Z"
+    },
+    "027ceaa371d62532": {
+      "title": "Associate - Financial Data Analysis",
+      "company": "Crisil",
+      "source": "Naukri",
+      "seenAt": "2026-09-13T10:15:13.664Z"
+    },
+    "ef6a3ebfa26ec139": {
+      "title": "Data Scientist",
+      "company": "Tata Consultancy Services",
+      "source": "Naukri",
+      "seenAt": "2026-09-13T10:15:13.664Z"
+    },
+    "69b8e0940500bf48": {
+      "title": "Data Scientist | Python | GenAI | LLM | RAG",
+      "company": "Infosys",
+      "source": "Naukri",
+      "seenAt": "2026-09-13T10:15:13.664Z"
+    },
+    "024320ac490215f1": {
+      "title": "Business Analyst",
+      "company": "TATA 1 MG",
+      "source": "Naukri",
+      "seenAt": "2026-09-13T10:15:13.664Z"
+    },
+    "ec7696ffe3e37f20": {
+      "title": "Data Analyst",
+      "company": "Thyrocare",
+      "source": "Naukri",
+      "seenAt": "2026-09-13T10:15:13.664Z"
+    },
+    "c97892b51a6e0d91": {
+      "title": "Data Collection Analyst Part Time",
+      "company": "Stats Systems India",
+      "source": "Naukri",
+      "seenAt": "2026-09-13T10:15:13.664Z"
+    },
+    "f9d9626a6b59b4f1": {
+      "title": "Data Strategy - Analyst",
+      "company": "Sigma Allied Services",
+      "source": "Naukri",
+      "seenAt": "2026-09-13T10:15:13.664Z"
+    },
+    "7ec376fbe7bd570a": {
+      "title": "Business Intelligence/Datasphere & SAC Analyst-0-30 days joinees only",
+      "company": "PwC Service Delivery Center",
+      "source": "Naukri",
+      "seenAt": "2026-09-13T10:15:13.664Z"
+    },
+    "47afc6fa3726d179": {
+      "title": "Deputy Manager - Business Intelligence and Insights Group",
+      "company": "Axis Max Life Insurance",
+      "source": "Naukri",
+      "seenAt": "2026-09-13T10:15:13.664Z"
+    },
+    "d6299bc33776ff23": {
+      "title": "Associate Business Analyst",
+      "company": "Infosys",
+      "source": "Naukri",
+      "seenAt": "2026-09-13T10:15:13.664Z"
+    },
+    "a56ac3b21f2bc26b": {
+      "title": "Business Analyst - AI",
+      "company": "Bitkraft Technologies",
+      "source": "Naukri",
+      "seenAt": "2026-09-13T10:15:13.664Z"
+    },
+    "2e1512bb05083441": {
+      "title": "Analyst III Business Process Transactions/LMA/RR",
+      "company": "DXC Technology",
+      "source": "Naukri",
+      "seenAt": "2026-09-13T10:15:13.665Z"
+    },
+    "0b826a3ca4a6db40": {
+      "title": "Tech & Digital-Business Analyst",
+      "company": "Hdfc Bank",
+      "source": "Naukri",
+      "seenAt": "2026-09-13T10:15:13.665Z"
+    },
+    "5bcbdf3e8df20655": {
+      "title": "Business Intelligence Analyst (MIS Analyst)",
+      "company": "Diebold",
+      "source": "Naukri",
+      "seenAt": "2026-09-13T10:15:13.665Z"
+    },
+    "d2e4ebfeaa301ecb": {
+      "title": "Technical Business Analysis Engineer I",
+      "company": "Conduent",
+      "source": "Naukri",
+      "seenAt": "2026-09-13T10:15:13.665Z"
+    },
+    "6620fd24981874b0": {
+      "title": "Senior Business Intelligence Analyst",
+      "company": "XPO India Shared Services",
+      "source": "Naukri",
+      "seenAt": "2026-09-13T10:15:13.665Z"
+    },
+    "89831fb291cf26c5": {
+      "title": "Business Analyst - Legal",
+      "company": "Crisil",
+      "source": "Naukri",
+      "seenAt": "2026-09-13T10:15:13.665Z"
+    },
+    "23318352abaf5f09": {
+      "title": "Sr. Business Analyst",
+      "company": "Cognizant",
+      "source": "Naukri",
+      "seenAt": "2026-09-13T10:15:13.665Z"
+    },
+    "53e236ac2144c2d9": {
+      "title": "Business Intelligence Analyst -Data Engineering",
+      "company": "Medpace Clinical Research India",
+      "source": "Naukri",
+      "seenAt": "2026-09-13T10:15:13.665Z"
+    },
+    "e6e395ce78d1354c": {
+      "title": "Technical Business Analysis Engineer II",
+      "company": "Conduent",
+      "source": "Naukri",
+      "seenAt": "2026-09-13T10:15:13.665Z"
+    },
+    "236b080429916593": {
+      "title": "Business Finance Sr Analyst",
+      "company": "Deutsche Bank",
+      "source": "Naukri",
+      "seenAt": "2026-09-13T10:15:13.665Z"
+    },
+    "e0c73d8eace8cefc": {
+      "title": "CFIN Business Analyst",
+      "company": "ABB",
+      "source": "Naukri",
+      "seenAt": "2026-09-13T10:15:13.665Z"
+    },
+    "b31df5ac121b23ea": {
+      "title": "Hiring Sr D&T Analyst Business Intelligence in Mumbai",
+      "company": "General Mills",
+      "source": "Naukri",
+      "seenAt": "2026-09-13T10:15:13.665Z"
+    },
+    "55e9d970e0d6fb7f": {
+      "title": "Business Intelligence Analyst IV",
+      "company": "Astreya",
+      "source": "Naukri",
+      "seenAt": "2026-09-13T10:15:13.665Z"
+    },
+    "c66f7e409c33445f": {
+      "title": "Power BI / Business Intelligence Analyst",
+      "company": "Quarks Technosoft",
+      "source": "Naukri",
+      "seenAt": "2026-09-13T10:15:13.665Z"
+    },
+    "cbc971016fb37c83": {
+      "title": "Big Data Engineer",
+      "company": "Infosys",
+      "source": "Naukri",
+      "seenAt": "2026-09-13T10:15:13.665Z"
+    },
+    "f1ae5057f17a5c56": {
+      "title": "Walk-in || Data Engineer",
+      "company": "Tata Consultancy Services",
+      "source": "Naukri",
+      "seenAt": "2026-09-13T10:15:13.665Z"
+    },
+    "0323f047709958af": {
+      "title": "Gcp Data Engineer",
+      "company": "Tata Consultancy Services",
+      "source": "Naukri",
+      "seenAt": "2026-09-13T10:15:13.665Z"
+    },
+    "8cd21e9a9faaec0b": {
+      "title": "Senior Data Engineer",
+      "company": "Persistent",
+      "source": "Naukri",
+      "seenAt": "2026-09-13T10:15:13.666Z"
+    },
+    "31bee840669b5d0f": {
       "title": "Data Engineer",
-      "company": "Cribl",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.962Z"
-    },
-    "bf3237a40a94918a": {
-      "title": "Data Engineer 1 - ITA - Candidate Conversion",
-      "company": "Amazon",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.962Z"
-    },
-    "f144d238e7bb6435": {
-      "title": "Junior Data Engineer",
-      "company": "Sayari",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.962Z"
-    },
-    "dfd1df8530e298f9": {
-      "title": "University Graduate - Machine Learning Engineer",
-      "company": "Adobe",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.962Z"
-    },
-    "441e2fcb873d12d6": {
-      "title": "RTL Design Engineer – University Graduate - PhD - Machine Learning",
-      "company": "Google",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.963Z"
-    },
-    "05b79c460a422ecd": {
-      "title": "Machine Learning Engineer I",
-      "company": "Trend Health Partners",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.963Z"
-    },
-    "d547bca814b59bfe": {
-      "title": "Machine Learning Researcher – Fresh Graduates are welcome - Handwriting",
-      "company": "Goodnotes",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.963Z"
-    },
-    "1682eaf7f75f01ba": {
-      "title": "Data Scientist – Early Career - Research - PhD",
-      "company": "Google",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.963Z"
-    },
-    "d8d6a896701bb5c0": {
-      "title": "Data Engineer, Analytics (University Grad)",
-      "company": "Meta",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.963Z"
-    },
-    "8aa28c4ccb617dd5": {
-      "title": "Data Engineer 1",
-      "company": "Equip Health",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.963Z"
-    },
-    "f97d6c69df8b93f5": {
-      "title": "Junior Data Scientist",
-      "company": "AES Corporation",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.963Z"
-    },
-    "25d5e27db424f263": {
-      "title": "Hardware Simulator SDE I - AWS Machine Learning Accelerators - Annapurna Labs",
-      "company": "Amazon",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.963Z"
-    },
-    "ba37b85f7089bae2": {
-      "title": "Software Engineer II, Early Career - Google Cloud AI Catalyst Program",
-      "company": "Google",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.963Z"
-    },
-    "f9341042d0637c04": {
-      "title": "Deep Learning Software Engineer – New College Grad 2025 - Inference and Model Optimization",
-      "company": "NVIDIA",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.963Z"
-    },
-    "23dadcc3996a38d6": {
-      "title": "Applied Machine Learning Engineer – New College Grad 2025 - Circuit Design",
-      "company": "NVIDIA",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.963Z"
-    },
-    "a268fc47b16a6fdd": {
-      "title": "Deep Learning Algorithm Engineer, Dynamo",
-      "company": "NVIDIA",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.963Z"
-    },
-    "b2320cae7d36d2a7": {
-      "title": "University Graduate - Data Scientist",
-      "company": "Adobe",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.963Z"
-    },
-    "27c386feabcd6b27": {
-      "title": "Machine Learning Engineer 1",
-      "company": "Trend Health Partners",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.963Z"
-    },
-    "b684565ab8d00a48": {
-      "title": "ASIC Physical Design Engineer New Grad - Netlisting",
-      "company": "NVIDIA",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.963Z"
-    },
-    "997ceb848c421375": {
-      "title": "AI Software Engineer New Grad - Kernel Libraries",
-      "company": "NVIDIA",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.963Z"
-    },
-    "04901699a0a4c3b6": {
-      "title": "Systems Software Engineer New Grad",
-      "company": "NVIDIA",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.963Z"
-    },
-    "4ff29009480cc38b": {
-      "title": "ASIC Design Engineer New Grad",
-      "company": "NVIDIA",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.963Z"
-    },
-    "b815d2b0351f68af": {
-      "title": "Embedded Software Engineer 1",
-      "company": "RTX",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.963Z"
-    },
-    "cbabd96533452875": {
-      "title": "ASIC Floorplan Design Engineer New Grad",
-      "company": "NVIDIA",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.963Z"
-    },
-    "5c518b9bc415ad61": {
-      "title": "Software Development Engineer 1",
-      "company": "Amazon",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.963Z"
-    },
-    "80186a6b745ce624": {
-      "title": "Entry Level Software Developer",
-      "company": "Nightwing Intelligence Solutions",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.963Z"
-    },
-    "039b7c3aed7f0d90": {
-      "title": "Firmware Engineer 1",
-      "company": "Allegion",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.963Z"
-    },
-    "aae383c36761c7de": {
-      "title": "Laser Production Technician – Entry Level - Starlink",
-      "company": "SpaceX",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.963Z"
-    },
-    "1ed6b78d3237fae7": {
-      "title": "Production Technician – Entry Level - Starlink",
-      "company": "SpaceX",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.963Z"
-    },
-    "9d9a8492fcec8263": {
-      "title": "ASIC RTL Design and Automation Engineer – University Graduate",
-      "company": "Google",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.963Z"
-    },
-    "65a3f39f3a8a91d5": {
-      "title": "Entry Level Production Technician",
-      "company": "SpaceX",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.963Z"
-    },
-    "50a72ed2bfe67daf": {
-      "title": "Production Technician - Entry Level - Pcba - Starlink",
-      "company": "SpaceX",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.963Z"
-    },
-    "4cd4ca5c07cc2273": {
-      "title": "ASIC Verification and Infrastructure Engineer – New College Grad 2026",
-      "company": "NVIDIA",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.963Z"
-    },
-    "0cc7e783dead88a8": {
-      "title": "Firmware Engineer – New College Grad 2026 - Memory Subsystem",
-      "company": "NVIDIA",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.963Z"
-    },
-    "6b20c6355bf2e002": {
-      "title": "Software Engineer – New College Grad 2025 - CAD Automation",
-      "company": "NVIDIA",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.963Z"
-    },
-    "c7596d54fa7a4af3": {
-      "title": "Software Engineer Intern - Recommendation Infrastructure",
-      "company": "TikTok",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.963Z"
-    },
-    "11db219635c76cee": {
-      "title": "Software Engineer Intern - AI Applications",
-      "company": "Cambium Learning Group",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.963Z"
-    },
-    "24c2218efae097c0": {
-      "title": "Software Development Engineer Intern",
-      "company": "iHerb",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.963Z"
-    },
-    "8de4ddd7c1872858": {
-      "title": "Software Undergrad Engineer Intern",
-      "company": "Apple",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.963Z"
-    },
-    "09374c7914e0502e": {
-      "title": "AI Enablement Engineer Intern",
-      "company": "LegalZoom",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.963Z"
-    },
-    "56e5c331792ec8b2": {
-      "title": "AI Engineer Intern",
-      "company": "Great Question",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.963Z"
-    },
-    "9cad176891f0b8b5": {
-      "title": "Software Engineer Intern",
-      "company": "Oracle",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.963Z"
-    },
-    "4e5398d64ef33b98": {
-      "title": "Test Software Engineer Intern - Intelligent Creation",
-      "company": "ByteDance",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.963Z"
-    },
-    "893ff009b682c8d5": {
-      "title": "Software Engineer Intern",
-      "company": "Ensemble Health Partners",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.963Z"
-    },
-    "a569ca05308c8411": {
-      "title": "AI Engineer Intern",
-      "company": "Arine",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.963Z"
-    },
-    "f1130c343752669b": {
-      "title": "AI Engineer Intern",
-      "company": "Phil",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.963Z"
-    },
-    "be19d27b1b68afc3": {
-      "title": "Year at Palantir Intern - Forward Deployed Software Engineer - Commercial",
-      "company": "Palantir",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.963Z"
-    },
-    "bdd44f96fb9470fb": {
-      "title": "Software Engineer Intern - Quality and Efficiency Technology",
-      "company": "TikTok",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.963Z"
-    },
-    "d0d92adce4c91d00": {
-      "title": "Temporary Intern - Agentic AI & Neural-Symbolic Systems - Healthcare",
-      "company": "Cotiviti",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.963Z"
-    },
-    "b25456df3b6d5e9e": {
-      "title": "Software Engineer Co-op",
-      "company": "Constant Contact",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.963Z"
-    },
-    "cff7f9b9ac6707e3": {
-      "title": "Software Development Intern - Route Optimization",
-      "company": "Intelcom | Dragonfly",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.963Z"
-    },
-    "d32b3fc46ef9eae7": {
-      "title": "AI/ML Software Engineer Intern - Data Platform",
-      "company": "TikTok",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.963Z"
-    },
-    "4235ed85049a44cb": {
-      "title": "Software Development Intern",
-      "company": "DuCharme, McMillen & Associates",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.963Z"
-    },
-    "4c1c5c3dddbccfc7": {
-      "title": "Software Engineer Intern - Multiple Teams",
-      "company": "TikTok",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.963Z"
-    },
-    "b149e27c37e4d410": {
-      "title": "Software Engineer Project Intern - Recommendation Infrastructure",
-      "company": "TikTok",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.963Z"
-    },
-    "e00aa2c28b6fdb62": {
-      "title": "Engineering Intern - AI Agents - Data & Riskos",
-      "company": "Socure",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.963Z"
-    },
-    "5b6d23f27591de93": {
-      "title": "Software Development Engineer Intern",
-      "company": "Amazon",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.963Z"
-    },
-    "79af27786c2a0c3a": {
-      "title": "Software Engineer Project Intern - Model Infrastructure",
-      "company": "TikTok",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.963Z"
-    },
-    "b80a840344490dae": {
-      "title": "Software Engineer Intern - AI Model Optimization",
-      "company": "TikTok",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.963Z"
-    },
-    "a4fefb339d6fdbe7": {
-      "title": "Product Line Management Associate Intern",
-      "company": "Primetals Technologies",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.963Z"
-    },
-    "ab43e8b841fac0e5": {
-      "title": "Product Operations Project Intern - Advertising - Creative",
-      "company": "TikTok",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.963Z"
-    },
-    "dc6555860edf5f78": {
-      "title": "Internship Senior Signal Associate",
-      "company": "60decibelsinc",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.963Z"
-    },
-    "09b68f93f79fa0a3": {
-      "title": "Generative AI Research Engineer Intern",
-      "company": "Cotiviti",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.963Z"
-    },
-    "cd5e3f54e52bed94": {
-      "title": "Residential Data Analyst Intern",
-      "company": "Voltus",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.963Z"
-    },
-    "e1eb9b67c01f80ce": {
-      "title": "Research Scientist Intern - Seed Responsible AI",
-      "company": "ByteDance",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.963Z"
-    },
-    "ab7f225cf35c2958": {
-      "title": "Efficient ML Engineer Research Intern - AI Platform - PhD",
-      "company": "TikTok",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.963Z"
-    },
-    "cfb246e4d6e2f184": {
-      "title": "Machine Learning and Artificial Intelligence Undergraduate Intern",
-      "company": "Apple",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.963Z"
-    },
-    "869a9780e9c242a8": {
-      "title": "Power BI Reporting Intern",
-      "company": "Federal Home Loan Bank of Indianapolis",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.963Z"
-    },
-    "6110021e5b2ab1dc": {
-      "title": "Data Analyst Intern - TikTok Live",
-      "company": "TikTok",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.963Z"
-    },
-    "5013a70a46af504d": {
-      "title": "Machine Learning Engineer Intern - Security-Data",
-      "company": "ByteDance",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.963Z"
-    },
-    "970bb9ea33562e99": {
-      "title": "Data Science Intern - Data Platforms",
-      "company": "Primetals Technologies",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.963Z"
-    },
-    "2c78a3c79523b579": {
-      "title": "Research Intern - Self-Improving AI",
+      "company": "ANZ",
+      "source": "Naukri",
+      "seenAt": "2026-09-13T10:15:13.666Z"
+    },
+    "661b4e3f826ccc12": {
+      "title": "Data Engineer - Full Time Contractual Role",
+      "company": "Schneider Electric",
+      "source": "Naukri",
+      "seenAt": "2026-09-13T10:15:13.666Z"
+    },
+    "c965a58598e36704": {
+      "title": "Data Engineer | Python&SQL",
+      "company": "Capgemini",
+      "source": "Naukri",
+      "seenAt": "2026-09-13T10:15:13.666Z"
+    },
+    "dea74e7fe9fc45d3": {
+      "title": "Data Engineer + Ai Engineers",
+      "company": "Infosys",
+      "source": "Naukri",
+      "seenAt": "2026-09-13T10:15:13.666Z"
+    },
+    "6b4057f4f0e81619": {
+      "title": "Data Engineer - Python FASTAPI",
+      "company": "Huns Info",
+      "source": "Naukri",
+      "seenAt": "2026-09-13T10:15:13.666Z"
+    },
+    "b45a8e04cefc0446": {
+      "title": "Contract role with Cognizant - Azure Data Engineer",
+      "company": "Cognizant",
+      "source": "Naukri",
+      "seenAt": "2026-09-13T10:15:13.666Z"
+    },
+    "7e52c55b5ca88323": {
+      "title": "Walk-in || Azure Data Engineer",
+      "company": "Tata Consultancy Services",
+      "source": "Naukri",
+      "seenAt": "2026-09-14T10:15:50.709Z"
+    },
+    "ec08926f0d409045": {
+      "title": "Walk-in || Senior Azure Data Engineer",
+      "company": "Tata Consultancy Services",
+      "source": "Naukri",
+      "seenAt": "2026-09-14T10:15:50.709Z"
+    },
+    "746acd97ae103a6f": {
+      "title": "Power BI Developer",
+      "company": "Rapidview Technologies",
+      "source": "Naukri",
+      "seenAt": "2026-09-14T10:15:50.710Z"
+    },
+    "ba3cccd3cf6f73ef": {
+      "title": "Azure Data Engineer",
+      "company": "Capgemini",
+      "source": "Naukri",
+      "seenAt": "2026-09-14T10:15:50.710Z"
+    },
+    "f2aa4250e76e19d8": {
+      "title": "Power BI Developer",
+      "company": "Bellurbis",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:15:50.710Z"
+    },
+    "5c6f5f9900545772": {
+      "title": "BI Developer",
+      "company": "ExxonMobil",
+      "source": "Naukri",
+      "seenAt": "2026-09-14T10:15:50.710Z"
+    },
+    "099793e3ae018d6a": {
+      "title": "GCP BI Developer",
+      "company": "Tata Consultancy Services",
+      "source": "Naukri",
+      "seenAt": "2026-09-14T10:15:50.710Z"
+    },
+    "4ab43c17269e2a51": {
+      "title": "GCP BI Developer - S",
+      "company": "Tata Consultancy Services",
+      "source": "Naukri",
+      "seenAt": "2026-09-14T10:15:50.710Z"
+    },
+    "d1ac71471423fa43": {
+      "title": "Walk-in || Data Engineer (Hadoop)",
+      "company": "Tata Consultancy Services",
+      "source": "Naukri",
+      "seenAt": "2026-09-14T10:15:50.710Z"
+    },
+    "e4d7eb80270c57c9": {
+      "title": "Power BI Developer",
+      "company": "PwC India",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:15:50.710Z"
+    },
+    "b0c5db7e455d5fe2": {
+      "title": "Azure Data Engineer",
+      "company": "Atlas Copco Group",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:15:50.710Z"
+    },
+    "7ac5eb520a3b196e": {
+      "title": "Azure Data Engineer || Tenarai || Bangalore",
+      "company": "TENARAI TECHNOLOGIES PRIVATE LIMITED",
+      "source": "Naukri",
+      "seenAt": "2026-09-14T10:15:50.710Z"
+    },
+    "c70cca8fcd6d0fac": {
+      "title": "Azure Data Engineer + AI",
+      "company": "Tata Consultancy Services",
+      "source": "Naukri",
+      "seenAt": "2026-09-14T10:15:50.710Z"
+    },
+    "1da4e5bf14e66469": {
+      "title": "Sr Data Engineer (Azure Synapse)",
+      "company": "Quantiphi Analytics Solutions",
+      "source": "Naukri",
+      "seenAt": "2026-09-14T10:15:50.710Z"
+    },
+    "e0f25a9f25980a04": {
+      "title": "Senior Azure data engineer",
+      "company": "Tata Consultancy Services",
+      "source": "Naukri",
+      "seenAt": "2026-09-14T10:15:50.710Z"
+    },
+    "2ecb1a4203540674": {
+      "title": "Opening For - Azure Data Engineer",
+      "company": "India's Largest IT Service Provider",
+      "source": "Naukri",
+      "seenAt": "2026-09-14T10:15:50.710Z"
+    },
+    "2ba86982bdf0864a": {
+      "title": "Lead Azure Data Engineer",
+      "company": "Tata Consultancy Services",
+      "source": "Naukri",
+      "seenAt": "2026-09-14T10:15:50.710Z"
+    },
+    "324a6205247bb3d6": {
+      "title": "Data Engineer - Azure",
+      "company": "Mindshare",
+      "source": "Naukri",
+      "seenAt": "2026-09-14T10:15:50.710Z"
+    },
+    "aeb8a25a5d34aa6a": {
+      "title": "Power BI Developer - SoFi",
+      "company": "EXL",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:15:50.710Z"
+    },
+    "6019eff50db1e95b": {
+      "title": "Senior Data Engineer",
+      "company": "Valorem Reply",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:15:50.710Z"
+    },
+    "9b27d7cb80e759e4": {
+      "title": "Principal Data Engineer",
+      "company": "Optum India",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:15:50.710Z"
+    },
+    "309b15d190a46396": {
+      "title": "Data Engineer-Senior II",
+      "company": "FedEx",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:15:50.710Z"
+    },
+    "9663b0d9653459e0": {
+      "title": "Senior BI Analyst",
+      "company": "Nextpower",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:15:50.710Z"
+    },
+    "a18ea517d2a4318b": {
+      "title": "Data Engineer III",
+      "company": "Clearwater Analytics",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:15:50.710Z"
+    },
+    "14a8dfab5e702d1d": {
+      "title": "Azure Data Engineer",
+      "company": "Tata Consultancy Services",
+      "source": "Naukri",
+      "seenAt": "2026-09-14T10:15:50.710Z"
+    },
+    "9d8bebf07f2ab203": {
+      "title": "Data Engineer",
+      "company": "Fractal Analytics",
+      "source": "Naukri",
+      "seenAt": "2026-09-14T10:15:50.710Z"
+    },
+    "e98e580de9001bb9": {
+      "title": "Data Engineer (Spark & Python)",
+      "company": "Infosys",
+      "source": "Naukri",
+      "seenAt": "2026-09-14T10:15:50.710Z"
+    },
+    "54c284943647272a": {
+      "title": "Semantic Data Engineer",
+      "company": "EY",
+      "source": "Naukri",
+      "seenAt": "2026-09-14T10:15:50.711Z"
+    },
+    "268889d1147f4aeb": {
+      "title": "Senior Staff Engineer, Big Data Engineer",
+      "company": "Nagarro",
+      "source": "Naukri",
+      "seenAt": "2026-09-14T10:15:50.711Z"
+    },
+    "db9f1221f8bb0003": {
+      "title": "Google Data Engineer",
+      "company": "Tata Consultancy Services",
+      "source": "Naukri",
+      "seenAt": "2026-09-14T10:15:50.711Z"
+    },
+    "ffa0bda3f61aeb73": {
+      "title": "Senior Big Data Engineer | Hadoop | Spark | Python | PL/SQL | ETL",
+      "company": "Cognizant",
+      "source": "Naukri",
+      "seenAt": "2026-09-14T10:15:50.711Z"
+    },
+    "c7acad5e58e426dc": {
+      "title": "Lead Data Engineer_ Exp: 8+ Years (Azure+ Databricks + Datafacotry)",
+      "company": "Atyeti Inc",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:15:50.711Z"
+    },
+    "da5febf1ffb2be93": {
+      "title": "Azure Senior Data Engineer",
+      "company": "EXL",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:15:50.711Z"
+    },
+    "b0f3ab86c52464c6": {
+      "title": "Data Analyst",
+      "company": "Nineleaps",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:15:50.711Z"
+    },
+    "a1997a4b9e7f497a": {
+      "title": "Data Engineer Lead",
+      "company": "Standard Chartered India",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:15:50.711Z"
+    },
+    "ad4264b15fee8cf9": {
+      "title": "Consultant - Data Engineer + AI",
       "company": "Microsoft",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.964Z"
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:15:50.711Z"
     },
-    "8740f3b14bb81542": {
-      "title": "Applied Scientist AI/ML Intern",
-      "company": "Wealth.com",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.964Z"
+    "a657a2492cc4b6aa": {
+      "title": "Senior Azure Data Engineer",
+      "company": "MetLife",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:15:50.711Z"
     },
-    "79b9f71f7a20ca59": {
-      "title": "AI Applied Scientist Intern - Evaluation Systems and Metrics",
-      "company": "Zillow",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.964Z"
+    "a052317cb06bd88c": {
+      "title": "Azure Data Engineer – ADF",
+      "company": "Infosys",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:15:50.711Z"
     },
-    "b31d9e5acc818e79": {
-      "title": "Research Scientist/Engineer Intern",
-      "company": "Adobe",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.964Z"
+    "4a820cf5e40d4931": {
+      "title": "Sr Data Engineer",
+      "company": "Veradigm®",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:15:50.711Z"
     },
-    "1b4c763f349498a3": {
-      "title": "Engineering Excellence Engineer Intern",
-      "company": "Ensemble Health Partners",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.964Z"
+    "c34d0eed82af4a79": {
+      "title": "Data Analyst",
+      "company": "Tata Consultancy Services",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:15:50.711Z"
     },
-    "3612ba744da935c8": {
-      "title": "AI Researcher Intern",
-      "company": "GenScript",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.964Z"
+    "b8187a296a8d3b9b": {
+      "title": "AI / BI Data Engineer (Offshore)",
+      "company": "Milacron",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:15:50.711Z"
     },
-    "7d382631bb874603": {
-      "title": "Research Scientist Intern - Multimodal Contextual AI",
-      "company": "Meta",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.964Z"
+    "5d5d051f5265ba0d": {
+      "title": "Data Engineer",
+      "company": "ALESAYI HOLDING |  العيسائي القابضة",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:15:50.711Z"
     },
-    "45ae6b355173dde1": {
-      "title": "Data Science Operations Intern - Business Integrity Data Cycling Center",
-      "company": "TikTok",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.964Z"
+    "84ddbb6a215688a4": {
+      "title": "Data Analyst",
+      "company": "Deloitte US-India Offices",
+      "source": "Naukri",
+      "seenAt": "2026-09-14T10:15:50.711Z"
     },
-    "9bf735b783429dc9": {
-      "title": "Temporary Intern - Data Analytics",
-      "company": "Cotiviti",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.964Z"
+    "023d90ddf6253d92": {
+      "title": "Senior Business Intelligence Analyst",
+      "company": "DexCare",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:15:50.711Z"
     },
-    "e5d5e1be6c7832e4": {
-      "title": "Machine Learning Intern - Multimodal Models Generative AI",
-      "company": "NVIDIA",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.964Z"
+    "7efcc7a345f1338f": {
+      "title": "Revenue Operations Data Engineer( Hybrid- Bangalore)",
+      "company": "Smartsheet",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:15:50.711Z"
     },
-    "c007856d8a4028bc": {
-      "title": "Research Intern - AI Frontiers",
-      "company": "Microsoft",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.964Z"
-    },
-    "f63bdf25410e049b": {
-      "title": "Economics Intern - Economic Decision Science",
-      "company": "Amazon",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.964Z"
-    },
-    "1c2778c16fbff277": {
-      "title": "AI Research Intern - Knowledge Graphs",
-      "company": "Samsung",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.964Z"
-    },
-    "020c15f45b676f72": {
-      "title": "Data Analyst Intern",
-      "company": "Intelcom | Dragonfly",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.964Z"
-    },
-    "53703517c2ca4812": {
-      "title": "LLM Post-training Engineer Intern",
-      "company": "TikTok",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.964Z"
-    },
-    "d569ea712c0f3050": {
-      "title": "Associate Data Operations Specialist Intern - Brilliant Harvest",
-      "company": "AltaML",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.964Z"
-    },
-    "044611cf062fe4c6": {
-      "title": "Research Intern - Audio and Acoustics",
-      "company": "Microsoft",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.964Z"
-    },
-    "627850956090efec": {
-      "title": "Data Analyst Project Intern - TikTok Shop - Data Science",
-      "company": "TikTok",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.964Z"
-    },
-    "3c14e406c94d5327": {
-      "title": "Research Scientist Intern - E-commerce Recommendation - LLM Applications",
-      "company": "TikTok",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.964Z"
-    },
-    "97bb1a0a8dba144f": {
-      "title": "Research Intern-AI Ethics",
-      "company": "Sony",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.964Z"
-    },
-    "d9ff36c7a6c2df44": {
-      "title": "Research Scientist Intern - Multiple Teams",
-      "company": "ByteDance",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.964Z"
-    },
-    "d24fbb7cc77a564a": {
-      "title": "Data Analyst Intern",
-      "company": "ConnectPrep",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.964Z"
-    },
-    "dbf9a05f02506e16": {
-      "title": "Generative AI/Agentic AI/Research Intern",
-      "company": "Cotiviti",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.964Z"
-    },
-    "334651f1054983f4": {
-      "title": "Speech Intern 4",
-      "company": "Centific",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.964Z"
-    },
-    "9e9179e56a8ea423": {
-      "title": "Research Scientist Intern - Nextgen Recommendation",
-      "company": "TikTok",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.964Z"
-    },
-    "466133710f66b8c3": {
-      "title": "AI/ML Intern - Machine Learning Engineer",
-      "company": "Adobe",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.964Z"
-    },
-    "07b1ec29d0c4b2ee": {
-      "title": "Research Scientist Intern - TikTok Recommendation",
-      "company": "TikTok",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.964Z"
-    },
-    "3d65b11553f55ab5": {
-      "title": "Security Engineering Project - Watermark",
-      "company": "ByteDance",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.964Z"
-    },
-    "b5e0309b816c5539": {
-      "title": "Machine Learning Scientist Intern - Global E-Commerce Content Recommendation",
-      "company": "TikTok",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.964Z"
-    },
-    "1f3d2a741cc820bb": {
-      "title": "Research Intern",
-      "company": "Higharc",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.964Z"
-    },
-    "57f47edba1a446b0": {
-      "title": "Research Intern - Foundation Models and Agentic Systems",
-      "company": "Microsoft",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.964Z"
-    },
-    "25235af89b4b57e0": {
-      "title": "Undergrad Engineering Intern",
-      "company": "Apple",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.964Z"
-    },
-    "ae272625be80988e": {
-      "title": "R&D Engineer Intern",
-      "company": "Technergetics",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.964Z"
-    },
-    "a51b5ceb5c734c6b": {
-      "title": "Embedded Software Development Intern",
-      "company": "Intelcom | Dragonfly",
-      "source": "GitHub Repos",
-      "seenAt": "2026-05-29T16:23:13.964Z"
-    },
-    "eab6da18b112238d": {
-      "title": "IT Software Engineer Jobs Opening in A Client of Freshersworld at Noida",
-      "company": "A Client of Freshersworld",
-      "source": "Freshersworld",
-      "seenAt": "2026-05-29T16:23:13.964Z"
-    },
-    "b09b52b6d3bee971": {
-      "title": "IT Software Engineer Jobs Opening in A Client of Freshersworld at Gurgaon",
-      "company": "A Client of Freshersworld",
-      "source": "Freshersworld",
-      "seenAt": "2026-05-29T16:23:13.964Z"
-    },
-    "6332444313f66846": {
-      "title": "IT Software Engineer Jobs Opening in A Client of Freshersworld at Thiruvananthapuram",
-      "company": "A Client of Freshersworld",
-      "source": "Freshersworld",
-      "seenAt": "2026-05-29T16:23:13.964Z"
-    },
-    "2dcabb3c5e0cf086": {
-      "title": "IT Software Engineer Jobs Opening in A Client of Freshersworld at Indore",
-      "company": "A Client of Freshersworld",
-      "source": "Freshersworld",
-      "seenAt": "2026-05-29T16:23:13.964Z"
-    },
-    "bb351ab494db60a3": {
-      "title": "IT Software Engineer Jobs Opening in A Client of Freshersworld at Coimbatore",
-      "company": "A Client of Freshersworld",
-      "source": "Freshersworld",
-      "seenAt": "2026-05-29T16:23:13.964Z"
-    },
-    "f256e5b57c67f37f": {
-      "title": "IT Software Engineer Jobs Opening in A Client of Freshersworld at Jaipur",
-      "company": "A Client of Freshersworld",
-      "source": "Freshersworld",
-      "seenAt": "2026-05-29T16:23:13.964Z"
-    },
-    "65cd493732735188": {
-      "title": "Software Engineer/Programmer Jobs Opening in For a Client of TeamLease Digital at Bengaluru",
-      "company": "Company on Freshersworld",
-      "source": "Freshersworld",
-      "seenAt": "2026-05-29T16:23:13.964Z"
-    },
-    "3334b0cc81910fd6": {
-      "title": "Engineering Lead Analyst Jobs Opening in A Client of Freshersworld at Hyderabad",
-      "company": "A Client of Freshersworld",
-      "source": "Freshersworld",
-      "seenAt": "2026-05-29T16:23:13.964Z"
-    },
-    "7d748be0268c63c6": {
-      "title": "Engineering Lead Analyst Jobs Opening in A Client of Freshersworld at Bangalore",
-      "company": "A Client of Freshersworld",
-      "source": "Freshersworld",
-      "seenAt": "2026-05-29T16:23:13.964Z"
-    },
-    "f4e308e7f50a4340": {
-      "title": "All Positions in Software Development",
-      "company": "D. E. Shaw India Private Limited",
-      "source": "Google Jobs",
-      "seenAt": "2026-05-29T16:23:13.964Z"
-    },
-    "94ddf6d549c7e959": {
-      "title": "MERN Stack Developer (Fresher / Entry Level)",
-      "company": "G7 CR Technologies",
-      "source": "Google Jobs",
-      "seenAt": "2026-05-29T16:23:13.964Z"
-    },
-    "104996809ae6b8d8": {
-      "title": "MERN Stack Developer (Fresher / Entry Level)",
-      "company": "G7 CR Technologies",
-      "source": "Google Jobs",
-      "seenAt": "2026-05-29T16:23:13.965Z"
-    },
-    "b1da249cdee1f6a5": {
-      "title": "AI/ML Engineering Intern - Internship (WFH)",
-      "company": "Daice Labs",
-      "source": "Google Jobs",
-      "seenAt": "2026-05-29T16:23:13.965Z"
-    },
-    "b2099ec6a607910f": {
-      "title": "AI/Machine learning Intern",
-      "company": "SunsysTechsol Pvt. Ltd.",
-      "source": "Google Jobs",
-      "seenAt": "2026-05-29T16:23:13.965Z"
-    },
-    "225d949c10e7769f": {
-      "title": "Apprentice Software Engineer (AgentOps Engineering)",
+    "d888e512666022d4": {
+      "title": "Staff Data Engineer",
       "company": "Pearson",
-      "source": "Google Jobs",
-      "seenAt": "2026-05-29T16:23:13.965Z"
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:15:50.711Z"
     },
-    "3de7f8208311910d": {
-      "title": "Siemens Healthineers Off Campus Drive 2025 :  Trainee - Full Stack Developer",
-      "company": "Siemens Healthineers",
-      "source": "Google Jobs",
-      "seenAt": "2026-05-29T16:23:13.965Z"
+    "ae6f4f788be7fda7": {
+      "title": "Lead Data Engineer - T&T",
+      "company": "McCormick & Company",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:15:50.711Z"
     },
-    "345f248a8c7df0b8": {
-      "title": "Software Engineer Intern - Summer 2026 (For SNC Summer 2025 Interns Only)",
-      "company": "Sierra Nevada Corporation",
-      "source": "Google Jobs",
-      "seenAt": "2026-05-29T16:23:13.965Z"
+    "009e33fb7fedb86e": {
+      "title": "Data Engineer II",
+      "company": "Syneos Health",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:15:50.711Z"
+    },
+    "66cec5141512c422": {
+      "title": "Data Engineer / Analyst",
+      "company": "McAfee",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:15:50.711Z"
+    },
+    "4fabb37a6d2cdfcb": {
+      "title": "Lead II - Data Engineering",
+      "company": "UST",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:15:50.711Z"
+    },
+    "b611f14aa249e134": {
+      "title": "Data Engineer",
+      "company": "AMS International UAE",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:15:50.711Z"
+    },
+    "50df746b40c36f7f": {
+      "title": "Senior Data Engineer - Level 7",
+      "company": "PRI INDIA IT SERVICES PRIVATE LIMITED",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:15:50.711Z"
+    },
+    "dc679a883c148c68": {
+      "title": "Sr Data Engineer",
+      "company": "Amgen",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:15:50.711Z"
+    },
+    "e5f001f4612efada": {
+      "title": "Oliver Wyman - Lead Data Engineer - Data and Analytics (DNA) - Gurugram, India",
+      "company": "Oliver Wyman",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:15:50.711Z"
+    },
+    "151ba865838b3751": {
+      "title": "Business Data Analyst",
+      "company": "Solarium Green Energy Limited",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:15:50.711Z"
+    },
+    "fd2c3a5f9a1280fb": {
+      "title": "Data Analyst",
+      "company": "Innodata Inc.",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:15:50.711Z"
+    },
+    "745f1a6e604718d2": {
+      "title": "Senior Data Analyst",
+      "company": "Mastercard",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:15:50.711Z"
+    },
+    "3ee31a58fc0c79db": {
+      "title": "Data Analyst",
+      "company": "Barclays",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:15:50.711Z"
+    },
+    "e85be28c9c5ef807": {
+      "title": "Data Analyst Remote",
+      "company": "Nitpeak Technologies Private Limited",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:15:50.711Z"
+    },
+    "f5849a86a95e1e71": {
+      "title": "Senior Azure Databricks Data Engineer Immediate Joiner 6 plus years (South India)",
+      "company": "Amrapali Solutions",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:15:50.711Z"
+    },
+    "0daa64d029a726a5": {
+      "title": "Senior Data Analyst",
+      "company": "EXL",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:15:50.711Z"
+    },
+    "dbb7daa665e9d0e2": {
+      "title": "Data & Business Intelligence Analyst",
+      "company": "UPS",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:15:50.711Z"
+    },
+    "0ddd6df10defeff8": {
+      "title": "Data & Business Intelligence Analyst",
+      "company": "UPS",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:15:50.711Z"
+    },
+    "1a94446a9343c7e1": {
+      "title": "Assistant Manager - Brand Marketing-Data Engineering-Big Data Engineering",
+      "company": "EXL",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:15:50.711Z"
+    },
+    "a599b34647e9b44b": {
+      "title": "Senior Data Engineer",
+      "company": "Takeda",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:15:50.711Z"
+    },
+    "2aa7c6689e687b41": {
+      "title": "Data Engineer with Snowflake and AI",
+      "company": "Sii Poland",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:15:50.711Z"
+    },
+    "0ef6a7ac57a2acde": {
+      "title": "Senior Azure Data Engineer",
+      "company": "Fractal",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:15:50.712Z"
+    },
+    "3792f61c5ab9882d": {
+      "title": "Data Engineer - GCP, SQL,BiqQuery, Dataflow, Pub/Sub, Logging, IAM",
+      "company": "UPS",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:15:50.712Z"
+    },
+    "0e8ca1a20a54adcf": {
+      "title": "Lead Databricks Data Engineer",
+      "company": "Qualcomm",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:15:50.712Z"
+    },
+    "81c31e9f2f3c4845": {
+      "title": "Data Engineer - GCP, SQL,BiqQuery, Dataflow, Pub/Sub, Logging, IAM",
+      "company": "UPS",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:15:50.712Z"
+    },
+    "111a924de3653e27": {
+      "title": "Data Engineer-Data Platforms-Google",
+      "company": "IBM",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:15:50.712Z"
+    },
+    "82c8e1cb334714b3": {
+      "title": "Data Engineer-Data Platforms-Google",
+      "company": "IBM",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:15:50.712Z"
+    },
+    "aad2f57f0ff92056": {
+      "title": "FBS Associate Data Engineer",
+      "company": "Capgemini",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:15:50.712Z"
+    },
+    "ebe1e3f7979b16c3": {
+      "title": "Senior Financial Data Engineer",
+      "company": "Birdeye",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:15:50.712Z"
+    },
+    "002bb0c926a96921": {
+      "title": "Business Intelligence Analyst III",
+      "company": "Applied Materials India",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:15:50.712Z"
+    },
+    "c559ca1c5aef0aea": {
+      "title": "LEAD DATA ANALYST L1",
+      "company": "Wipro",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:15:50.712Z"
+    },
+    "e27ed5481205b621": {
+      "title": "DATA ANALYST L3",
+      "company": "Wipro",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:15:50.712Z"
+    },
+    "15bb7cf9bd9ab2e6": {
+      "title": "Ecommerce Analytics Engineer",
+      "company": "Mouser",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:15:50.712Z"
+    },
+    "acad85351e0a5409": {
+      "title": "Sr. Software Engineer - Power BI",
+      "company": "Yash Technologies",
+      "source": "Naukri",
+      "seenAt": "2026-09-14T10:15:50.712Z"
+    },
+    "cc8ca50fa3e21b66": {
+      "title": "Senior Devops with-Winforms,Power BI,Crystal reports, .NET ,Git",
+      "company": "Not disclosed",
+      "source": "Naukri",
+      "seenAt": "2026-09-14T10:15:50.712Z"
+    },
+    "54d61be7a035d930": {
+      "title": "Analytics Engineer",
+      "company": "Publicis Production",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:15:50.712Z"
+    },
+    "b064b7d1487cc747": {
+      "title": "Business Intelligence Engineer, ISFX",
+      "company": "Amazon",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:15:50.712Z"
+    },
+    "0daecb3b1eb5bf7e": {
+      "title": "Walk In || Azure Data Factory",
+      "company": "Tata Consultancy Services",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:15:50.712Z"
+    },
+    "fee83f83cb220665": {
+      "title": "Business Intelligence Associate",
+      "company": "athenahealth",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:15:50.712Z"
+    },
+    "91a7cca185783af0": {
+      "title": "Senior Power BI Engineer",
+      "company": "Web Spiders",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:15:50.712Z"
+    },
+    "9cba98b5bfa7eac1": {
+      "title": "Power Platform Developer: Senior -Kochi/Trivandrum/Bangalore",
+      "company": "EY",
+      "source": "Naukri",
+      "seenAt": "2026-09-14T10:15:50.712Z"
+    },
+    "dadd19a7e89c5288": {
+      "title": "SharePoint/Power Platform Developer",
+      "company": "Mavin Software Development Centre",
+      "source": "Naukri",
+      "seenAt": "2026-09-14T10:15:50.712Z"
+    },
+    "90e010d67ec2d4eb": {
+      "title": "MSBI",
+      "company": "Infosys",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:15:50.712Z"
+    },
+    "2c64f46b4009e6bf": {
+      "title": "Power BI Specialist",
+      "company": "Prose on Pixels",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:15:50.712Z"
+    },
+    "c47773cf7b88273a": {
+      "title": "Sr Associate Data Analytics & Reporting",
+      "company": "Amgen",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:15:50.712Z"
+    },
+    "857926c786881909": {
+      "title": "Senior Consultant",
+      "company": "CBIZ",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:15:50.712Z"
+    },
+    "6b036e9072f5a495": {
+      "title": "3877036-Assistant Manager",
+      "company": "EXL",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:15:50.712Z"
+    },
+    "2282d714d557d9cc": {
+      "title": "Business Intel Engineer II, DISCO",
+      "company": "Amazon",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:15:50.712Z"
+    },
+    "c79aad654c91dab7": {
+      "title": "IN_Manager_Power Platforms _D&A_Advisory_Bangalore",
+      "company": "PwC India",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:15:50.712Z"
+    },
+    "f797b18963312669": {
+      "title": "Senior Specialist, IT Application Solutions",
+      "company": "Celanese",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:15:50.712Z"
+    },
+    "88365ee916626068": {
+      "title": "Senior Sales Analyt Senior Specialist – Sales Performance Reporting & Analytics Specialist",
+      "company": "NTT DATA, Inc.",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:15:50.712Z"
+    },
+    "09557535a1ac9146": {
+      "title": "Logistics Executive(Power BI skills)",
+      "company": "Tetra Pak",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:15:50.712Z"
+    },
+    "a2a3b34eef2964d1": {
+      "title": "Senior Data Scientist",
+      "company": "Definitive Healthcare",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:15:50.712Z"
+    },
+    "cea9b2a719d84b22": {
+      "title": "Business Data Insights Senior Specialist",
+      "company": "A.P. Moller - Maersk",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:15:50.712Z"
+    },
+    "eafceaf72641e298": {
+      "title": "Digital Delivery Consultant",
+      "company": "Arup",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:15:50.712Z"
+    },
+    "382b190705c39bd1": {
+      "title": "DPM Suit Devops Ops Analyst",
+      "company": "DHL Supply Chain",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:15:50.712Z"
+    },
+    "cc3ad302b1693636": {
+      "title": "Data and Reporting Analyst: Hyderabad",
+      "company": "Deloitte",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:15:50.712Z"
+    },
+    "9f89716272941b71": {
+      "title": "Data Surveillance Analyst",
+      "company": "Parexel",
+      "source": "Naukri",
+      "seenAt": "2026-09-14T10:15:50.713Z"
+    },
+    "a9e3481884ac3262": {
+      "title": "Analyst III - Data Analysis",
+      "company": "Taylor & Company",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:15:50.713Z"
+    },
+    "66f2be873667a181": {
+      "title": "Sr. Visualization Analyst",
+      "company": "Durapid Technologies Private Limited",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:15:50.713Z"
+    },
+    "404a6396d7614219": {
+      "title": "Technical Business Analyst",
+      "company": "Conduent",
+      "source": "Naukri",
+      "seenAt": "2026-09-14T10:15:50.713Z"
+    },
+    "3621f4328174b80e": {
+      "title": "Technical Business Analysis Engineer I",
+      "company": "Conduent",
+      "source": "Naukri",
+      "seenAt": "2026-09-14T10:15:50.713Z"
+    },
+    "1b3401810bd4bdf8": {
+      "title": "Technical Business Analysis Engineer II",
+      "company": "Conduent",
+      "source": "Naukri",
+      "seenAt": "2026-09-14T10:15:50.713Z"
+    },
+    "83eaf79521f26a25": {
+      "title": "Technical Business Analysis Engineer III",
+      "company": "Conduent",
+      "source": "Naukri",
+      "seenAt": "2026-09-14T10:15:50.713Z"
+    },
+    "2b80c9fc7fa3ffe7": {
+      "title": "Assistant Manager",
+      "company": "EXL",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:15:50.713Z"
+    },
+    "e480f6fa5977c87a": {
+      "title": "Senior Analyst, Digital Analytics (L09)",
+      "company": "Synchrony",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:15:50.713Z"
+    },
+    "140ca62de676363d": {
+      "title": "Sr Associate- Digital and AI Performance analytics",
+      "company": "Amgen",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:15:50.713Z"
+    },
+    "15fc4cfc6162319f": {
+      "title": "Senior Analyst, BI",
+      "company": "Assembly Global",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:15:50.713Z"
+    },
+    "3ec266db2ad40790": {
+      "title": "Senior Analyst, Digital Analytics (L09)",
+      "company": "Synchrony",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:15:50.713Z"
+    },
+    "749eb8b4ce965454": {
+      "title": "Cloud Data Engineer",
+      "company": "Barclays",
+      "source": "Naukri",
+      "seenAt": "2026-09-14T10:26:30.524Z"
+    },
+    "53b3f67afabdf584": {
+      "title": "Sr Data Engineer - Data Modelling",
+      "company": "Tiger Analytics",
+      "source": "Naukri",
+      "seenAt": "2026-09-14T10:26:30.524Z"
+    },
+    "3980f9835471280a": {
+      "title": "Data Engineer | Azure Data Factory & Databricks| 6-9 Year Experience| Immediate Joiner | Hybrid",
+      "company": "Innova ESI",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:26:30.524Z"
+    },
+    "5f038beb59b710dc": {
+      "title": "Azure Data Engineer",
+      "company": "Tredence",
+      "source": "Naukri",
+      "seenAt": "2026-09-14T10:26:30.524Z"
+    },
+    "134a42ca2ae03709": {
+      "title": "Azure Data Engineer",
+      "company": "WillWare Technologies",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:26:30.524Z"
+    },
+    "3289fec815280eae": {
+      "title": "Sr Data Engineer",
+      "company": "Veradigm®",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:26:30.524Z"
+    },
+    "6ed293f3914c80df": {
+      "title": "DATA ANALYST - DIGITAL ENGINEERING",
+      "company": "TE Connectivity",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:26:30.524Z"
+    },
+    "b10bcfe54cb6c4a6": {
+      "title": "Data Engineer-Data Platforms-Google",
+      "company": "IBM",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:26:30.524Z"
+    },
+    "25949c1d8adc9a02": {
+      "title": "Senior Devops with-Winforms,Power BI,Crystal reports, .NET ,Git",
+      "company": "Arcelormittal",
+      "source": "Naukri",
+      "seenAt": "2026-09-14T10:26:30.524Z"
+    },
+    "b69fbe8c5e349369": {
+      "title": "Business System Analyst",
+      "company": "Hexaware Technologies",
+      "source": "Naukri",
+      "seenAt": "2026-09-14T10:26:30.524Z"
+    },
+    "328531699d141ca8": {
+      "title": "Azure DE",
+      "company": "WhiteLotus Talent Partners",
+      "source": "LinkedIn",
+      "seenAt": "2026-09-14T10:26:30.525Z"
+    },
+    "49d1e12a3fe7d76e": {
+      "title": "Business Analyst",
+      "company": "Tata Consultancy Services",
+      "source": "Naukri",
+      "seenAt": "2026-09-14T10:26:30.525Z"
+    },
+    "987105887683ca9c": {
+      "title": "Technical Business Analysis Engineer I",
+      "company": "Conduent",
+      "source": "Naukri",
+      "seenAt": "2026-09-14T10:26:30.525Z"
     }
   },
   "meta": {
     "created": "2025-01-01T00:00:00.000Z",
-    "totalSeen": 452,
-    "lastRun": "2026-05-29T16:23:13.965Z"
+    "totalSeen": 637,
+    "lastRun": "2026-09-14T10:26:30.525Z"
   }
 }
