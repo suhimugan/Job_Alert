@@ -1,4 +1,4 @@
-name: 🌱 Seed Run (First-Time Setup — Run Once)
+name: Seed Run (First-Time Setup - Run Once)
 
 # This workflow is ONLY for first-time setup.
 # Run it manually ONCE before enabling the scheduled scrapes.
@@ -21,37 +21,47 @@ permissions:
 
 jobs:
   seed:
-    name: 🌱 Seed Deduplication Database
+    name: Seed Deduplication Database
     runs-on: ubuntu-latest
     timeout-minutes: 15
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
     steps:
-      - name: 📥 Checkout repository
+      - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 1
 
-      - name: 🟢 Setup Node.js 20
+      - name: Setup Node.js 20
         uses: actions/setup-node@v4
         with:
           node-version: '20'
 
-      - name: 📦 Cache node_modules
+      - name: Cache node_modules
         id: node-cache
         uses: actions/cache@v4
         with:
           path: node_modules
           key: node-modules-${{ hashFiles('package-lock.json') }}
 
-      - name: 📦 Install dependencies (only if cache miss)
+      - name: Install dependencies (only if cache miss)
         if: steps.node-cache.outputs.cache-hit != 'true'
         run: npm ci
 
       # Seed run: no prior cache to restore — starts from a clean DB intentionally.
       # This marks ALL currently-listed jobs as "already seen".
-      - name: 🌱 Run Seed (catalogue existing jobs, send NO notifications)
+      - name: Setup Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install LinkedIn scraper dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install python-jobspy
+
+      - name: Run Seed (catalogue existing jobs, send NO notifications)
         env:
           # Notifier credentials not required in SEED_MODE — but provide anyway
           # so the workflow doesn't fail if validateConfig is ever tightened.
